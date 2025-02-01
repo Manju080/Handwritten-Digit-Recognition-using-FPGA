@@ -1,0 +1,1583 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Thu May 25 19:05:05 2023
+# Process ID: 14944
+# Current directory: C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent19464 C:\Users\HP\Documents\neuralNetwork-master\Tut-8\myProject1\myProject1.xpr
+# Log file: C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/vivado.log
+# Journal file: C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/HP/Documents/neuralNetwork-master/Tut-8/src'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2017.4/data/ip'.
+open_project: Time (s): cpu = 00:00:06 ; elapsed = 00:00:09 . Memory (MB): peak = 760.965 ; gain = 61.355
+update_compile_order -fileset sources_1
+open_bd_design {C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.srcs/sources_1/bd/myBlock2/myBlock2.bd}
+Adding cell -- xilinx.com:ip:axi_dma:7.1 - axi_dma_0
+Adding cell -- xilinx.com:ip:smartconnect:1.0 - axi_smc
+Adding cell -- xilinx.com:ip:processing_system7:5.5 - processing_system7_0
+Adding cell -- xilinx.com:ip:proc_sys_reset:5.0 - rst_ps7_0_100M
+Adding cell -- xilinx.com:ip:xlconcat:2.1 - xlconcat_0
+Adding cell -- VIP:user:zyNet:1.0 - zyNet_0
+Adding cell -- xilinx.com:ip:axi_crossbar:2.1 - xbar
+Adding cell -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Successfully read diagram <myBlock2> from BD file <C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.srcs/sources_1/bd/myBlock2/myBlock2.bd>
+open_bd_design: Time (s): cpu = 00:00:07 ; elapsed = 00:00:09 . Memory (MB): peak = 871.426 ; gain = 63.219
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'C:/Xilinx/Vivado/2017.4/data/xsim/ip/xsim_ip.ini' copied to run dir:'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'top_sim' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_0.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_1.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_10.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_11.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_12.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_13.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_14.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_15.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_16.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_17.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_18.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_19.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_2.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_20.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_21.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_22.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_23.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_24.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_25.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_26.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_27.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_28.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_29.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_3.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_4.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_5.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_6.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_7.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_8.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_9.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_0.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_1.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_10.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_11.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_12.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_13.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_14.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_15.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_16.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_17.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_18.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_19.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_2.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_20.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_21.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_22.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_23.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_24.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_25.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_26.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_27.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_28.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_29.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_3.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_4.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_5.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_6.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_7.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_8.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_9.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_3_0.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_3_1.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_3_2.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_3_3.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_3_4.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_3_5.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_3_6.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_3_7.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_3_8.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_3_9.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_4_0.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_4_1.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_4_2.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_4_3.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_4_4.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_4_5.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_4_6.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_4_7.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_4_8.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_4_9.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/sigContent.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/w_1_0.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/w_1_1.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/w_1_10.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/w_1_11.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/w_1_12.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/w_1_13.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/w_1_14.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/w_1_15.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/w_1_16.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/w_1_17.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/w_1_18.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/w_1_19.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/w_1_2.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/w_1_20.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/w_1_21.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/w_1_22.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/w_1_23.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/w_1_24.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/w_1_25.mif'
+INFO: [Common 17-14] Message 'SIM-utils 43' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj top_sim_vlog.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim'
+Vivado Simulator 2017.4
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2017.4/bin/unwrapped/win64.o/xelab.exe -wto 35746d0d926e4e72aba90759307671e1 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot top_sim_behav xil_defaultlib.top_sim xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 5 for port s_axi_awaddr [C:/Users/HP/Documents/neuralNetwork-master/Tut-8/src/fpga/tb/top_sim.v:73]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 3 for port s_axi_awprot [C:/Users/HP/Documents/neuralNetwork-master/Tut-8/src/fpga/tb/top_sim.v:74]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 5 for port s_axi_araddr [C:/Users/HP/Documents/neuralNetwork-master/Tut-8/src/fpga/tb/top_sim.v:84]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 3 for port s_axi_arprot [C:/Users/HP/Documents/neuralNetwork-master/Tut-8/src/fpga/tb/top_sim.v:85]
+WARNING: [VRFC 10-278] actual bit length 11 differs from formal bit length 10 for port radd [C:/Users/HP/Documents/neuralNetwork-master/Tut-8/src/fpga/rtl/neuron.v:172]
+WARNING: [VRFC 10-278] actual bit length 10 differs from formal bit length 1 for port i_valid [C:/Users/HP/Documents/neuralNetwork-master/Tut-8/src/fpga/rtl/zynet.v:318]
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "top_sim_behav -key {Behavioral:sim_1:Functional:top_sim} -tclbatch {top_sim.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2017.4
+Time resolution is 1 ps
+source top_sim.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+Configuration completed                      0 ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'top_sim_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:04 ; elapsed = 00:00:10 . Memory (MB): peak = 958.016 ; gain = 59.715
+run all
+1. Accuracy: 100.000000, Detected number: 7, Expected: 0007
+2. Accuracy: 100.000000, Detected number: 2, Expected: 0002
+3. Accuracy: 100.000000, Detected number: 1, Expected: 0001
+4. Accuracy: 100.000000, Detected number: 0, Expected: 0000
+5. Accuracy: 100.000000, Detected number: 4, Expected: 0004
+6. Accuracy: 100.000000, Detected number: 1, Expected: 0001
+7. Accuracy: 100.000000, Detected number: 4, Expected: 0004
+8. Accuracy: 100.000000, Detected number: 9, Expected: 0009
+9. Accuracy: 100.000000, Detected number: 5, Expected: 0005
+10. Accuracy: 100.000000, Detected number: 9, Expected: 0009
+11. Accuracy: 100.000000, Detected number: 0, Expected: 0000
+12. Accuracy: 100.000000, Detected number: 6, Expected: 0006
+13. Accuracy: 100.000000, Detected number: 9, Expected: 0009
+14. Accuracy: 100.000000, Detected number: 0, Expected: 0000
+15. Accuracy: 100.000000, Detected number: 1, Expected: 0001
+16. Accuracy: 100.000000, Detected number: 5, Expected: 0005
+17. Accuracy: 100.000000, Detected number: 9, Expected: 0009
+18. Accuracy: 100.000000, Detected number: 7, Expected: 0007
+19. Accuracy: 100.000000, Detected number: 3, Expected: 0003
+20. Accuracy: 100.000000, Detected number: 4, Expected: 0004
+21. Accuracy: 100.000000, Detected number: 9, Expected: 0009
+22. Accuracy: 100.000000, Detected number: 6, Expected: 0006
+23. Accuracy: 100.000000, Detected number: 6, Expected: 0006
+24. Accuracy: 100.000000, Detected number: 5, Expected: 0005
+25. Accuracy: 100.000000, Detected number: 4, Expected: 0004
+26. Accuracy: 100.000000, Detected number: 0, Expected: 0000
+27. Accuracy: 100.000000, Detected number: 7, Expected: 0007
+28. Accuracy: 100.000000, Detected number: 4, Expected: 0004
+29. Accuracy: 100.000000, Detected number: 0, Expected: 0000
+30. Accuracy: 100.000000, Detected number: 1, Expected: 0001
+31. Accuracy: 100.000000, Detected number: 3, Expected: 0003
+32. Accuracy: 100.000000, Detected number: 1, Expected: 0001
+33. Accuracy: 100.000000, Detected number: 3, Expected: 0003
+34. Accuracy: 100.000000, Detected number: 4, Expected: 0004
+35. Accuracy: 100.000000, Detected number: 7, Expected: 0007
+36. Accuracy: 100.000000, Detected number: 2, Expected: 0002
+37. Accuracy: 100.000000, Detected number: 7, Expected: 0007
+38. Accuracy: 100.000000, Detected number: 1, Expected: 0001
+39. Accuracy: 100.000000, Detected number: 2, Expected: 0002
+40. Accuracy: 100.000000, Detected number: 1, Expected: 0001
+41. Accuracy: 100.000000, Detected number: 1, Expected: 0001
+42. Accuracy: 100.000000, Detected number: 7, Expected: 0007
+43. Accuracy: 100.000000, Detected number: 4, Expected: 0004
+44. Accuracy: 100.000000, Detected number: 2, Expected: 0002
+45. Accuracy: 100.000000, Detected number: 3, Expected: 0003
+46. Accuracy: 100.000000, Detected number: 5, Expected: 0005
+47. Accuracy: 100.000000, Detected number: 1, Expected: 0001
+48. Accuracy: 100.000000, Detected number: 2, Expected: 0002
+49. Accuracy: 100.000000, Detected number: 4, Expected: 0004
+50. Accuracy: 100.000000, Detected number: 4, Expected: 0004
+51. Accuracy: 100.000000, Detected number: 6, Expected: 0006
+52. Accuracy: 100.000000, Detected number: 3, Expected: 0003
+53. Accuracy: 100.000000, Detected number: 5, Expected: 0005
+54. Accuracy: 100.000000, Detected number: 5, Expected: 0005
+55. Accuracy: 100.000000, Detected number: 6, Expected: 0006
+56. Accuracy: 100.000000, Detected number: 0, Expected: 0000
+57. Accuracy: 100.000000, Detected number: 4, Expected: 0004
+58. Accuracy: 100.000000, Detected number: 1, Expected: 0001
+59. Accuracy: 100.000000, Detected number: 9, Expected: 0009
+60. Accuracy: 100.000000, Detected number: 5, Expected: 0005
+61. Accuracy: 100.000000, Detected number: 7, Expected: 0007
+62. Accuracy: 98.387097, Detected number: 2, Expected: 0008
+63. Accuracy: 98.412698, Detected number: 9, Expected: 0009
+64. Accuracy: 98.437500, Detected number: 3, Expected: 0003
+65. Accuracy: 98.461538, Detected number: 7, Expected: 0007
+66. Accuracy: 98.484848, Detected number: 4, Expected: 0004
+67. Accuracy: 98.507463, Detected number: 6, Expected: 0006
+68. Accuracy: 98.529412, Detected number: 4, Expected: 0004
+69. Accuracy: 98.550725, Detected number: 3, Expected: 0003
+70. Accuracy: 98.571429, Detected number: 0, Expected: 0000
+71. Accuracy: 98.591549, Detected number: 7, Expected: 0007
+72. Accuracy: 98.611111, Detected number: 0, Expected: 0000
+73. Accuracy: 98.630137, Detected number: 2, Expected: 0002
+74. Accuracy: 98.648649, Detected number: 9, Expected: 0009
+75. Accuracy: 98.666667, Detected number: 1, Expected: 0001
+76. Accuracy: 98.684211, Detected number: 7, Expected: 0007
+77. Accuracy: 98.701299, Detected number: 3, Expected: 0003
+78. Accuracy: 98.717949, Detected number: 2, Expected: 0002
+79. Accuracy: 98.734177, Detected number: 9, Expected: 0009
+80. Accuracy: 98.750000, Detected number: 7, Expected: 0007
+81. Accuracy: 98.765432, Detected number: 7, Expected: 0007
+82. Accuracy: 98.780488, Detected number: 6, Expected: 0006
+83. Accuracy: 98.795181, Detected number: 2, Expected: 0002
+84. Accuracy: 98.809524, Detected number: 7, Expected: 0007
+85. Accuracy: 98.823529, Detected number: 8, Expected: 0008
+86. Accuracy: 98.837209, Detected number: 4, Expected: 0004
+87. Accuracy: 98.850575, Detected number: 7, Expected: 0007
+88. Accuracy: 98.863636, Detected number: 3, Expected: 0003
+89. Accuracy: 98.876404, Detected number: 6, Expected: 0006
+90. Accuracy: 98.888889, Detected number: 1, Expected: 0001
+91. Accuracy: 98.901099, Detected number: 3, Expected: 0003
+92. Accuracy: 98.913043, Detected number: 6, Expected: 0006
+93. Accuracy: 98.924731, Detected number: 9, Expected: 0009
+94. Accuracy: 98.936170, Detected number: 3, Expected: 0003
+95. Accuracy: 98.947368, Detected number: 1, Expected: 0001
+96. Accuracy: 98.958333, Detected number: 4, Expected: 0004
+97. Accuracy: 98.969072, Detected number: 1, Expected: 0001
+98. Accuracy: 98.979592, Detected number: 7, Expected: 0007
+99. Accuracy: 98.989899, Detected number: 6, Expected: 0006
+100. Accuracy: 99.000000, Detected number: 9, Expected: 0009
+101. Accuracy: 99.009901, Detected number: 6, Expected: 0006
+102. Accuracy: 99.019608, Detected number: 0, Expected: 0000
+103. Accuracy: 99.029126, Detected number: 5, Expected: 0005
+104. Accuracy: 99.038462, Detected number: 4, Expected: 0004
+105. Accuracy: 99.047619, Detected number: 9, Expected: 0009
+106. Accuracy: 99.056604, Detected number: 9, Expected: 0009
+107. Accuracy: 99.065421, Detected number: 2, Expected: 0002
+108. Accuracy: 99.074074, Detected number: 1, Expected: 0001
+109. Accuracy: 99.082569, Detected number: 9, Expected: 0009
+110. Accuracy: 99.090909, Detected number: 4, Expected: 0004
+111. Accuracy: 99.099099, Detected number: 8, Expected: 0008
+112. Accuracy: 99.107143, Detected number: 7, Expected: 0007
+113. Accuracy: 99.115044, Detected number: 3, Expected: 0003
+114. Accuracy: 99.122807, Detected number: 9, Expected: 0009
+115. Accuracy: 99.130435, Detected number: 7, Expected: 0007
+116. Accuracy: 99.137931, Detected number: 4, Expected: 0004
+117. Accuracy: 99.145299, Detected number: 4, Expected: 0004
+118. Accuracy: 99.152542, Detected number: 4, Expected: 0004
+119. Accuracy: 99.159664, Detected number: 9, Expected: 0009
+120. Accuracy: 99.166667, Detected number: 2, Expected: 0002
+121. Accuracy: 99.173554, Detected number: 5, Expected: 0005
+122. Accuracy: 99.180328, Detected number: 4, Expected: 0004
+123. Accuracy: 99.186992, Detected number: 7, Expected: 0007
+124. Accuracy: 99.193548, Detected number: 6, Expected: 0006
+125. Accuracy: 99.200000, Detected number: 7, Expected: 0007
+126. Accuracy: 99.206349, Detected number: 9, Expected: 0009
+127. Accuracy: 99.212598, Detected number: 0, Expected: 0000
+128. Accuracy: 99.218750, Detected number: 5, Expected: 0005
+129. Accuracy: 99.224806, Detected number: 8, Expected: 0008
+130. Accuracy: 99.230769, Detected number: 5, Expected: 0005
+131. Accuracy: 99.236641, Detected number: 6, Expected: 0006
+132. Accuracy: 99.242424, Detected number: 6, Expected: 0006
+133. Accuracy: 99.248120, Detected number: 5, Expected: 0005
+134. Accuracy: 99.253731, Detected number: 7, Expected: 0007
+135. Accuracy: 99.259259, Detected number: 8, Expected: 0008
+136. Accuracy: 99.264706, Detected number: 1, Expected: 0001
+137. Accuracy: 99.270073, Detected number: 0, Expected: 0000
+138. Accuracy: 99.275362, Detected number: 1, Expected: 0001
+139. Accuracy: 99.280576, Detected number: 6, Expected: 0006
+140. Accuracy: 99.285714, Detected number: 4, Expected: 0004
+141. Accuracy: 99.290780, Detected number: 6, Expected: 0006
+142. Accuracy: 99.295775, Detected number: 7, Expected: 0007
+143. Accuracy: 99.300699, Detected number: 3, Expected: 0003
+144. Accuracy: 99.305556, Detected number: 1, Expected: 0001
+145. Accuracy: 99.310345, Detected number: 7, Expected: 0007
+146. Accuracy: 99.315068, Detected number: 1, Expected: 0001
+147. Accuracy: 99.319728, Detected number: 8, Expected: 0008
+148. Accuracy: 99.324324, Detected number: 2, Expected: 0002
+149. Accuracy: 99.328859, Detected number: 0, Expected: 0000
+150. Accuracy: 99.333333, Detected number: 2, Expected: 0002
+151. Accuracy: 99.337748, Detected number: 9, Expected: 0009
+152. Accuracy: 98.684211, Detected number: 8, Expected: 0009
+153. Accuracy: 98.692810, Detected number: 5, Expected: 0005
+154. Accuracy: 98.701299, Detected number: 5, Expected: 0005
+155. Accuracy: 98.709677, Detected number: 1, Expected: 0001
+156. Accuracy: 98.717949, Detected number: 5, Expected: 0005
+157. Accuracy: 98.726115, Detected number: 6, Expected: 0006
+158. Accuracy: 98.734177, Detected number: 0, Expected: 0000
+159. Accuracy: 98.742138, Detected number: 3, Expected: 0003
+160. Accuracy: 98.750000, Detected number: 4, Expected: 0004
+161. Accuracy: 98.757764, Detected number: 4, Expected: 0004
+162. Accuracy: 98.765432, Detected number: 6, Expected: 0006
+163. Accuracy: 98.773006, Detected number: 5, Expected: 0005
+164. Accuracy: 98.780488, Detected number: 4, Expected: 0004
+165. Accuracy: 98.787879, Detected number: 6, Expected: 0006
+166. Accuracy: 98.795181, Detected number: 5, Expected: 0005
+167. Accuracy: 98.802395, Detected number: 4, Expected: 0004
+168. Accuracy: 98.809524, Detected number: 5, Expected: 0005
+169. Accuracy: 98.816568, Detected number: 1, Expected: 0001
+170. Accuracy: 98.823529, Detected number: 4, Expected: 0004
+171. Accuracy: 98.830409, Detected number: 4, Expected: 0004
+172. Accuracy: 98.837209, Detected number: 7, Expected: 0007
+173. Accuracy: 98.843931, Detected number: 2, Expected: 0002
+174. Accuracy: 98.850575, Detected number: 3, Expected: 0003
+175. Accuracy: 98.857143, Detected number: 2, Expected: 0002
+176. Accuracy: 98.863636, Detected number: 7, Expected: 0007
+177. Accuracy: 98.870056, Detected number: 1, Expected: 0001
+178. Accuracy: 98.876404, Detected number: 8, Expected: 0008
+179. Accuracy: 98.882682, Detected number: 1, Expected: 0001
+180. Accuracy: 98.888889, Detected number: 8, Expected: 0008
+181. Accuracy: 98.895028, Detected number: 1, Expected: 0001
+182. Accuracy: 98.901099, Detected number: 8, Expected: 0008
+183. Accuracy: 98.907104, Detected number: 5, Expected: 0005
+184. Accuracy: 98.913043, Detected number: 0, Expected: 0000
+185. Accuracy: 98.918919, Detected number: 8, Expected: 0008
+186. Accuracy: 98.924731, Detected number: 9, Expected: 0009
+187. Accuracy: 98.930481, Detected number: 2, Expected: 0002
+188. Accuracy: 98.936170, Detected number: 5, Expected: 0005
+189. Accuracy: 98.941799, Detected number: 0, Expected: 0000
+190. Accuracy: 98.947368, Detected number: 1, Expected: 0001
+191. Accuracy: 98.952880, Detected number: 1, Expected: 0001
+192. Accuracy: 98.958333, Detected number: 1, Expected: 0001
+193. Accuracy: 98.963731, Detected number: 0, Expected: 0000
+194. Accuracy: 98.969072, Detected number: 9, Expected: 0009
+195. Accuracy: 98.974359, Detected number: 0, Expected: 0000
+196. Accuracy: 98.979592, Detected number: 3, Expected: 0003
+197. Accuracy: 98.984772, Detected number: 1, Expected: 0001
+198. Accuracy: 98.989899, Detected number: 6, Expected: 0006
+199. Accuracy: 98.994975, Detected number: 4, Expected: 0004
+200. Accuracy: 99.000000, Detected number: 2, Expected: 0002
+201. Accuracy: 99.004975, Detected number: 3, Expected: 0003
+202. Accuracy: 99.009901, Detected number: 6, Expected: 0006
+203. Accuracy: 99.014778, Detected number: 1, Expected: 0001
+204. Accuracy: 99.019608, Detected number: 1, Expected: 0001
+205. Accuracy: 99.024390, Detected number: 1, Expected: 0001
+206. Accuracy: 99.029126, Detected number: 3, Expected: 0003
+207. Accuracy: 99.033816, Detected number: 9, Expected: 0009
+208. Accuracy: 99.038462, Detected number: 5, Expected: 0005
+209. Accuracy: 99.043062, Detected number: 2, Expected: 0002
+210. Accuracy: 99.047619, Detected number: 9, Expected: 0009
+211. Accuracy: 99.052133, Detected number: 4, Expected: 0004
+212. Accuracy: 99.056604, Detected number: 5, Expected: 0005
+213. Accuracy: 99.061033, Detected number: 9, Expected: 0009
+214. Accuracy: 99.065421, Detected number: 3, Expected: 0003
+215. Accuracy: 99.069767, Detected number: 9, Expected: 0009
+216. Accuracy: 99.074074, Detected number: 0, Expected: 0000
+217. Accuracy: 99.078341, Detected number: 3, Expected: 0003
+218. Accuracy: 99.082569, Detected number: 6, Expected: 0006
+219. Accuracy: 99.086758, Detected number: 5, Expected: 0005
+220. Accuracy: 99.090909, Detected number: 5, Expected: 0005
+221. Accuracy: 99.095023, Detected number: 7, Expected: 0007
+222. Accuracy: 99.099099, Detected number: 2, Expected: 0002
+223. Accuracy: 99.103139, Detected number: 2, Expected: 0002
+224. Accuracy: 99.107143, Detected number: 7, Expected: 0007
+225. Accuracy: 99.111111, Detected number: 1, Expected: 0001
+226. Accuracy: 99.115044, Detected number: 2, Expected: 0002
+227. Accuracy: 99.118943, Detected number: 8, Expected: 0008
+228. Accuracy: 99.122807, Detected number: 4, Expected: 0004
+229. Accuracy: 99.126638, Detected number: 1, Expected: 0001
+230. Accuracy: 99.130435, Detected number: 7, Expected: 0007
+231. Accuracy: 99.134199, Detected number: 3, Expected: 0003
+232. Accuracy: 99.137931, Detected number: 3, Expected: 0003
+233. Accuracy: 99.141631, Detected number: 8, Expected: 0008
+234. Accuracy: 99.145299, Detected number: 8, Expected: 0008
+235. Accuracy: 99.148936, Detected number: 7, Expected: 0007
+236. Accuracy: 99.152542, Detected number: 9, Expected: 0009
+237. Accuracy: 99.156118, Detected number: 2, Expected: 0002
+238. Accuracy: 99.159664, Detected number: 2, Expected: 0002
+239. Accuracy: 99.163180, Detected number: 4, Expected: 0004
+240. Accuracy: 99.166667, Detected number: 1, Expected: 0001
+241. Accuracy: 99.170124, Detected number: 5, Expected: 0005
+242. Accuracy: 99.173554, Detected number: 9, Expected: 0009
+243. Accuracy: 99.176955, Detected number: 8, Expected: 0008
+244. Accuracy: 99.180328, Detected number: 7, Expected: 0007
+245. Accuracy: 99.183673, Detected number: 2, Expected: 0002
+246. Accuracy: 99.186992, Detected number: 3, Expected: 0003
+247. Accuracy: 99.190283, Detected number: 0, Expected: 0000
+248. Accuracy: 98.790323, Detected number: 6, Expected: 0004
+249. Accuracy: 98.795181, Detected number: 4, Expected: 0004
+250. Accuracy: 98.800000, Detected number: 2, Expected: 0002
+251. Accuracy: 98.804781, Detected number: 4, Expected: 0004
+252. Accuracy: 98.809524, Detected number: 1, Expected: 0001
+253. Accuracy: 98.814229, Detected number: 9, Expected: 0009
+254. Accuracy: 98.818898, Detected number: 5, Expected: 0005
+255. Accuracy: 98.823529, Detected number: 7, Expected: 0007
+256. Accuracy: 98.828125, Detected number: 7, Expected: 0007
+257. Accuracy: 98.832685, Detected number: 2, Expected: 0002
+258. Accuracy: 98.837209, Detected number: 8, Expected: 0008
+259. Accuracy: 98.841699, Detected number: 2, Expected: 0002
+260. Accuracy: 98.461538, Detected number: 0, Expected: 0006
+261. Accuracy: 98.467433, Detected number: 8, Expected: 0008
+262. Accuracy: 98.473282, Detected number: 5, Expected: 0005
+263. Accuracy: 98.479087, Detected number: 7, Expected: 0007
+264. Accuracy: 98.484848, Detected number: 7, Expected: 0007
+265. Accuracy: 98.490566, Detected number: 9, Expected: 0009
+266. Accuracy: 98.496241, Detected number: 1, Expected: 0001
+267. Accuracy: 98.501873, Detected number: 8, Expected: 0008
+268. Accuracy: 98.507463, Detected number: 1, Expected: 0001
+269. Accuracy: 98.513011, Detected number: 8, Expected: 0008
+270. Accuracy: 98.518519, Detected number: 0, Expected: 0000
+271. Accuracy: 98.523985, Detected number: 3, Expected: 0003
+272. Accuracy: 98.529412, Detected number: 0, Expected: 0000
+273. Accuracy: 98.534799, Detected number: 1, Expected: 0001
+274. Accuracy: 98.540146, Detected number: 9, Expected: 0009
+275. Accuracy: 98.545455, Detected number: 9, Expected: 0009
+276. Accuracy: 98.550725, Detected number: 4, Expected: 0004
+277. Accuracy: 98.555957, Detected number: 1, Expected: 0001
+278. Accuracy: 98.561151, Detected number: 8, Expected: 0008
+279. Accuracy: 98.566308, Detected number: 2, Expected: 0002
+280. Accuracy: 98.571429, Detected number: 1, Expected: 0001
+281. Accuracy: 98.576512, Detected number: 2, Expected: 0002
+282. Accuracy: 98.581560, Detected number: 9, Expected: 0009
+283. Accuracy: 98.586572, Detected number: 7, Expected: 0007
+284. Accuracy: 98.591549, Detected number: 5, Expected: 0005
+285. Accuracy: 98.596491, Detected number: 9, Expected: 0009
+286. Accuracy: 98.601399, Detected number: 2, Expected: 0002
+287. Accuracy: 98.606272, Detected number: 6, Expected: 0006
+288. Accuracy: 98.611111, Detected number: 4, Expected: 0004
+289. Accuracy: 98.615917, Detected number: 1, Expected: 0001
+290. Accuracy: 98.620690, Detected number: 5, Expected: 0005
+291. Accuracy: 98.625430, Detected number: 8, Expected: 0008
+292. Accuracy: 98.630137, Detected number: 2, Expected: 0002
+293. Accuracy: 98.634812, Detected number: 9, Expected: 0009
+294. Accuracy: 98.639456, Detected number: 2, Expected: 0002
+295. Accuracy: 98.644068, Detected number: 0, Expected: 0000
+296. Accuracy: 98.648649, Detected number: 4, Expected: 0004
+297. Accuracy: 98.653199, Detected number: 0, Expected: 0000
+298. Accuracy: 98.657718, Detected number: 0, Expected: 0000
+299. Accuracy: 98.662207, Detected number: 2, Expected: 0002
+300. Accuracy: 98.666667, Detected number: 8, Expected: 0008
+Accuracy: 98.666667
+run: Time (s): cpu = 00:00:05 ; elapsed = 00:00:53 . Memory (MB): peak = 971.945 ; gain = 7.105
+run all
+run: Time (s): cpu = 00:00:02 ; elapsed = 00:00:31 . Memory (MB): peak = 975.195 ; gain = 3.250
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'C:/Xilinx/Vivado/2017.4/data/xsim/ip/xsim_ip.ini' copied to run dir:'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'top_sim' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_0.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_1.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_10.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_11.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_12.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_13.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_14.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_15.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_16.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_17.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_18.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_19.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_2.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_20.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_21.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_22.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_23.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_24.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_25.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_26.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_27.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_28.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_29.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_3.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_4.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_5.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_6.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_7.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_8.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_9.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_0.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_1.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_10.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_11.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_12.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_13.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_14.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_15.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_16.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_17.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_18.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_19.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_2.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_20.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_21.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_22.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_23.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_24.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_25.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_26.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_27.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_28.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_29.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_3.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_4.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_5.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_6.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_7.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_8.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_9.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_3_0.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_3_1.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_3_2.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_3_3.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_3_4.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_3_5.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_3_6.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_3_7.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_3_8.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_3_9.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_4_0.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_4_1.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_4_2.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_4_3.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_4_4.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_4_5.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_4_6.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_4_7.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_4_8.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_4_9.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/sigContent.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/w_1_0.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/w_1_1.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/w_1_10.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/w_1_11.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/w_1_12.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/w_1_13.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/w_1_14.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/w_1_15.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/w_1_16.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/w_1_17.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/w_1_18.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/w_1_19.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/w_1_2.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/w_1_20.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/w_1_21.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/w_1_22.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/w_1_23.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/w_1_24.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/w_1_25.mif'
+INFO: [Common 17-14] Message 'SIM-utils 43' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj top_sim_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/HP/Documents/neuralNetwork-master/Tut-8/src/fpga/rtl/Layer_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Layer_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/HP/Documents/neuralNetwork-master/Tut-8/src/fpga/rtl/Layer_2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Layer_2
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/HP/Documents/neuralNetwork-master/Tut-8/src/fpga/rtl/Layer_3.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Layer_3
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/HP/Documents/neuralNetwork-master/Tut-8/src/fpga/rtl/Sig_ROM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Sig_ROM
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/HP/Documents/neuralNetwork-master/Tut-8/src/fpga/rtl/Weight_Memory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Weight_Memory
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/HP/Documents/neuralNetwork-master/Tut-8/src/fpga/rtl/axi_lite_wrapper.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module axi_lite_wrapper
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/HP/Documents/neuralNetwork-master/Tut-8/src/fpga/rtl/maxFinder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module maxFinder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/HP/Documents/neuralNetwork-master/Tut-8/src/fpga/rtl/neuron.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module neuron
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/HP/Documents/neuralNetwork-master/Tut-8/src/fpga/rtl/relu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ReLU
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/HP/Documents/neuralNetwork-master/Tut-8/src/fpga/rtl/zynet.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module zyNet
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/HP/Documents/neuralNetwork-master/Tut-8/src/fpga/tb/top_sim.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top_sim
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim'
+Vivado Simulator 2017.4
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2017.4/bin/unwrapped/win64.o/xelab.exe -wto 35746d0d926e4e72aba90759307671e1 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot top_sim_behav xil_defaultlib.top_sim xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 5 for port s_axi_awaddr [C:/Users/HP/Documents/neuralNetwork-master/Tut-8/src/fpga/tb/top_sim.v:73]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 3 for port s_axi_awprot [C:/Users/HP/Documents/neuralNetwork-master/Tut-8/src/fpga/tb/top_sim.v:74]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 5 for port s_axi_araddr [C:/Users/HP/Documents/neuralNetwork-master/Tut-8/src/fpga/tb/top_sim.v:84]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 3 for port s_axi_arprot [C:/Users/HP/Documents/neuralNetwork-master/Tut-8/src/fpga/tb/top_sim.v:85]
+WARNING: [VRFC 10-278] actual bit length 11 differs from formal bit length 10 for port radd [C:/Users/HP/Documents/neuralNetwork-master/Tut-8/src/fpga/rtl/neuron.v:172]
+WARNING: [VRFC 10-278] actual bit length 10 differs from formal bit length 1 for port i_valid [C:/Users/HP/Documents/neuralNetwork-master/Tut-8/src/fpga/rtl/zynet.v:318]
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "C:/Users/HP/Documents/neuralNetwork-master/Tut-8/src/fpga/rtl/Layer_1.v" Line 1. Module Layer_1(actType="sigmoid") doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/HP/Documents/neuralNetwork-master/Tut-8/src/fpga/rtl/Layer_2.v" Line 1. Module Layer_2(NN=20,numWeight=30,layerNum=2,actType="sigmoid") doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/HP/Documents/neuralNetwork-master/Tut-8/src/fpga/rtl/Layer_3.v" Line 1. Module Layer_3(NN=10,numWeight=20,layerNum=3,actType="sigmoid") doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.axi_lite_wrapper_default
+Compiling module xil_defaultlib.Weight_Memory(numWeight=784,neur...
+Compiling module xil_defaultlib.Sig_ROM
+Compiling module xil_defaultlib.neuron(layerNo=1,sigmoidSize=10,...
+Compiling module xil_defaultlib.Weight_Memory(numWeight=784,neur...
+Compiling module xil_defaultlib.neuron(layerNo=1,neuronNo=1,sigm...
+Compiling module xil_defaultlib.Weight_Memory(numWeight=784,neur...
+Compiling module xil_defaultlib.neuron(layerNo=1,neuronNo=2,sigm...
+Compiling module xil_defaultlib.Weight_Memory(numWeight=784,neur...
+Compiling module xil_defaultlib.neuron(layerNo=1,neuronNo=3,sigm...
+Compiling module xil_defaultlib.Weight_Memory(numWeight=784,neur...
+Compiling module xil_defaultlib.neuron(layerNo=1,neuronNo=4,sigm...
+Compiling module xil_defaultlib.Weight_Memory(numWeight=784,weig...
+Compiling module xil_defaultlib.neuron(layerNo=1,neuronNo=5,sigm...
+Compiling module xil_defaultlib.Weight_Memory(numWeight=784,neur...
+Compiling module xil_defaultlib.neuron(layerNo=1,neuronNo=6,sigm...
+Compiling module xil_defaultlib.Weight_Memory(numWeight=784,neur...
+Compiling module xil_defaultlib.neuron(layerNo=1,neuronNo=7,sigm...
+Compiling module xil_defaultlib.Weight_Memory(numWeight=784,neur...
+Compiling module xil_defaultlib.neuron(layerNo=1,neuronNo=8,sigm...
+Compiling module xil_defaultlib.Weight_Memory(numWeight=784,neur...
+Compiling module xil_defaultlib.neuron(layerNo=1,neuronNo=9,sigm...
+Compiling module xil_defaultlib.Weight_Memory(numWeight=784,neur...
+Compiling module xil_defaultlib.neuron(layerNo=1,neuronNo=10,sig...
+Compiling module xil_defaultlib.Weight_Memory(numWeight=784,neur...
+Compiling module xil_defaultlib.neuron(layerNo=1,neuronNo=11,sig...
+Compiling module xil_defaultlib.Weight_Memory(numWeight=784,neur...
+Compiling module xil_defaultlib.neuron(layerNo=1,neuronNo=12,sig...
+Compiling module xil_defaultlib.Weight_Memory(numWeight=784,neur...
+Compiling module xil_defaultlib.neuron(layerNo=1,neuronNo=13,sig...
+Compiling module xil_defaultlib.Weight_Memory(numWeight=784,neur...
+Compiling module xil_defaultlib.neuron(layerNo=1,neuronNo=14,sig...
+Compiling module xil_defaultlib.Weight_Memory(numWeight=784,neur...
+Compiling module xil_defaultlib.neuron(layerNo=1,neuronNo=15,sig...
+Compiling module xil_defaultlib.Weight_Memory(numWeight=784,neur...
+Compiling module xil_defaultlib.neuron(layerNo=1,neuronNo=16,sig...
+Compiling module xil_defaultlib.Weight_Memory(numWeight=784,neur...
+Compiling module xil_defaultlib.neuron(layerNo=1,neuronNo=17,sig...
+Compiling module xil_defaultlib.Weight_Memory(numWeight=784,neur...
+Compiling module xil_defaultlib.neuron(layerNo=1,neuronNo=18,sig...
+Compiling module xil_defaultlib.Weight_Memory(numWeight=784,neur...
+Compiling module xil_defaultlib.neuron(layerNo=1,neuronNo=19,sig...
+Compiling module xil_defaultlib.Weight_Memory(numWeight=784,neur...
+Compiling module xil_defaultlib.neuron(layerNo=1,neuronNo=20,sig...
+Compiling module xil_defaultlib.Weight_Memory(numWeight=784,neur...
+Compiling module xil_defaultlib.neuron(layerNo=1,neuronNo=21,sig...
+Compiling module xil_defaultlib.Weight_Memory(numWeight=784,neur...
+Compiling module xil_defaultlib.neuron(layerNo=1,neuronNo=22,sig...
+Compiling module xil_defaultlib.Weight_Memory(numWeight=784,neur...
+Compiling module xil_defaultlib.neuron(layerNo=1,neuronNo=23,sig...
+Compiling module xil_defaultlib.Weight_Memory(numWeight=784,neur...
+Compiling module xil_defaultlib.neuron(layerNo=1,neuronNo=24,sig...
+Compiling module xil_defaultlib.Weight_Memory(numWeight=784,neur...
+Compiling module xil_defaultlib.neuron(layerNo=1,neuronNo=25,sig...
+Compiling module xil_defaultlib.Weight_Memory(numWeight=784,neur...
+Compiling module xil_defaultlib.neuron(layerNo=1,neuronNo=26,sig...
+Compiling module xil_defaultlib.Weight_Memory(numWeight=784,neur...
+Compiling module xil_defaultlib.neuron(layerNo=1,neuronNo=27,sig...
+Compiling module xil_defaultlib.Weight_Memory(numWeight=784,neur...
+Compiling module xil_defaultlib.neuron(layerNo=1,neuronNo=28,sig...
+Compiling module xil_defaultlib.Weight_Memory(numWeight=784,neur...
+Compiling module xil_defaultlib.neuron(layerNo=1,neuronNo=29,sig...
+Compiling module xil_defaultlib.Layer_1(actType="sigmoid")
+Compiling module xil_defaultlib.Weight_Memory(numWeight=30,neuro...
+Compiling module xil_defaultlib.neuron(layerNo=2,numWeight=30,si...
+Compiling module xil_defaultlib.Weight_Memory(numWeight=30,neuro...
+Compiling module xil_defaultlib.neuron(layerNo=2,neuronNo=1,numW...
+Compiling module xil_defaultlib.Weight_Memory(numWeight=30,neuro...
+Compiling module xil_defaultlib.neuron(layerNo=2,neuronNo=2,numW...
+Compiling module xil_defaultlib.Weight_Memory(numWeight=30,neuro...
+Compiling module xil_defaultlib.neuron(layerNo=2,neuronNo=3,numW...
+Compiling module xil_defaultlib.Weight_Memory(numWeight=30,neuro...
+Compiling module xil_defaultlib.neuron(layerNo=2,neuronNo=4,numW...
+Compiling module xil_defaultlib.Weight_Memory(numWeight=30,layer...
+Compiling module xil_defaultlib.neuron(layerNo=2,neuronNo=5,numW...
+Compiling module xil_defaultlib.Weight_Memory(numWeight=30,neuro...
+Compiling module xil_defaultlib.neuron(layerNo=2,neuronNo=6,numW...
+Compiling module xil_defaultlib.Weight_Memory(numWeight=30,neuro...
+Compiling module xil_defaultlib.neuron(layerNo=2,neuronNo=7,numW...
+Compiling module xil_defaultlib.Weight_Memory(numWeight=30,neuro...
+Compiling module xil_defaultlib.neuron(layerNo=2,neuronNo=8,numW...
+Compiling module xil_defaultlib.Weight_Memory(numWeight=30,neuro...
+Compiling module xil_defaultlib.neuron(layerNo=2,neuronNo=9,numW...
+Compiling module xil_defaultlib.Weight_Memory(numWeight=30,neuro...
+Compiling module xil_defaultlib.neuron(layerNo=2,neuronNo=10,num...
+Compiling module xil_defaultlib.Weight_Memory(numWeight=30,neuro...
+Compiling module xil_defaultlib.neuron(layerNo=2,neuronNo=11,num...
+Compiling module xil_defaultlib.Weight_Memory(numWeight=30,neuro...
+Compiling module xil_defaultlib.neuron(layerNo=2,neuronNo=12,num...
+Compiling module xil_defaultlib.Weight_Memory(numWeight=30,neuro...
+Compiling module xil_defaultlib.neuron(layerNo=2,neuronNo=13,num...
+Compiling module xil_defaultlib.Weight_Memory(numWeight=30,neuro...
+Compiling module xil_defaultlib.neuron(layerNo=2,neuronNo=14,num...
+Compiling module xil_defaultlib.Weight_Memory(numWeight=30,neuro...
+Compiling module xil_defaultlib.neuron(layerNo=2,neuronNo=15,num...
+Compiling module xil_defaultlib.Weight_Memory(numWeight=30,neuro...
+Compiling module xil_defaultlib.neuron(layerNo=2,neuronNo=16,num...
+Compiling module xil_defaultlib.Weight_Memory(numWeight=30,neuro...
+Compiling module xil_defaultlib.neuron(layerNo=2,neuronNo=17,num...
+Compiling module xil_defaultlib.Weight_Memory(numWeight=30,neuro...
+Compiling module xil_defaultlib.neuron(layerNo=2,neuronNo=18,num...
+Compiling module xil_defaultlib.Weight_Memory(numWeight=30,neuro...
+Compiling module xil_defaultlib.neuron(layerNo=2,neuronNo=19,num...
+Compiling module xil_defaultlib.Layer_2(NN=20,numWeight=30,layer...
+Compiling module xil_defaultlib.Weight_Memory(numWeight=20,neuro...
+Compiling module xil_defaultlib.neuron(layerNo=3,numWeight=20,si...
+Compiling module xil_defaultlib.Weight_Memory(numWeight=20,neuro...
+Compiling module xil_defaultlib.neuron(layerNo=3,neuronNo=1,numW...
+Compiling module xil_defaultlib.Weight_Memory(numWeight=20,neuro...
+Compiling module xil_defaultlib.neuron(layerNo=3,neuronNo=2,numW...
+Compiling module xil_defaultlib.Weight_Memory(numWeight=20,neuro...
+Compiling module xil_defaultlib.neuron(layerNo=3,neuronNo=3,numW...
+Compiling module xil_defaultlib.Weight_Memory(numWeight=20,neuro...
+Compiling module xil_defaultlib.neuron(layerNo=3,neuronNo=4,numW...
+Compiling module xil_defaultlib.Weight_Memory(numWeight=20,layer...
+Compiling module xil_defaultlib.neuron(layerNo=3,neuronNo=5,numW...
+Compiling module xil_defaultlib.Weight_Memory(numWeight=20,neuro...
+Compiling module xil_defaultlib.neuron(layerNo=3,neuronNo=6,numW...
+Compiling module xil_defaultlib.Weight_Memory(numWeight=20,neuro...
+Compiling module xil_defaultlib.neuron(layerNo=3,neuronNo=7,numW...
+Compiling module xil_defaultlib.Weight_Memory(numWeight=20,neuro...
+Compiling module xil_defaultlib.neuron(layerNo=3,neuronNo=8,numW...
+Compiling module xil_defaultlib.Weight_Memory(numWeight=20,neuro...
+Compiling module xil_defaultlib.neuron(layerNo=3,neuronNo=9,numW...
+Compiling module xil_defaultlib.Layer_3(NN=10,numWeight=20,layer...
+Compiling module xil_defaultlib.maxFinder
+Compiling module xil_defaultlib.zyNet
+Compiling module xil_defaultlib.top_sim
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot top_sim_behav
+
+****** Webtalk v2017.4 (64-bit)
+  **** SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+  **** IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+    ** Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/xsim.dir/top_sim_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Thu May 25 19:23:14 2023...
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:11 . Memory (MB): peak = 984.039 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '11' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "top_sim_behav -key {Behavioral:sim_1:Functional:top_sim} -tclbatch {top_sim.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2017.4
+Time resolution is 1 ps
+source top_sim.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+Configuration completed                      0 ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'top_sim_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:03 ; elapsed = 00:00:17 . Memory (MB): peak = 984.039 ; gain = 0.000
+open_bd_design {C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.srcs/sources_1/bd/myBlock2/myBlock2.bd}
+open_bd_design {C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.srcs/sources_1/bd/myBlock2/myBlock2.bd}
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'C:/Xilinx/Vivado/2017.4/data/xsim/ip/xsim_ip.ini' copied to run dir:'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'top_sim' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj top_sim_vlog.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim'
+Vivado Simulator 2017.4
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2017.4/bin/unwrapped/win64.o/xelab.exe -wto 35746d0d926e4e72aba90759307671e1 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot top_sim_behav xil_defaultlib.top_sim xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 5 for port s_axi_awaddr [C:/Users/HP/Documents/neuralNetwork-master/Tut-8/src/fpga/tb/top_sim.v:73]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 3 for port s_axi_awprot [C:/Users/HP/Documents/neuralNetwork-master/Tut-8/src/fpga/tb/top_sim.v:74]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 5 for port s_axi_araddr [C:/Users/HP/Documents/neuralNetwork-master/Tut-8/src/fpga/tb/top_sim.v:84]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 3 for port s_axi_arprot [C:/Users/HP/Documents/neuralNetwork-master/Tut-8/src/fpga/tb/top_sim.v:85]
+WARNING: [VRFC 10-278] actual bit length 11 differs from formal bit length 10 for port radd [C:/Users/HP/Documents/neuralNetwork-master/Tut-8/src/fpga/rtl/neuron.v:172]
+WARNING: [VRFC 10-278] actual bit length 10 differs from formal bit length 1 for port i_valid [C:/Users/HP/Documents/neuralNetwork-master/Tut-8/src/fpga/rtl/zynet.v:318]
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "top_sim_behav -key {Behavioral:sim_1:Functional:top_sim} -tclbatch {top_sim.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2017.4
+Time resolution is 1 ps
+source top_sim.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+Configuration completed                      0 ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'top_sim_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:06 ; elapsed = 00:00:13 . Memory (MB): peak = 989.094 ; gain = 1.906
+run all
+1. Accuracy: 100.000000, Detected number: 7, Expected: 0007
+2. Accuracy: 100.000000, Detected number: 2, Expected: 0002
+3. Accuracy: 100.000000, Detected number: 1, Expected: 0001
+4. Accuracy: 100.000000, Detected number: 0, Expected: 0000
+5. Accuracy: 100.000000, Detected number: 4, Expected: 0004
+6. Accuracy: 100.000000, Detected number: 1, Expected: 0001
+7. Accuracy: 100.000000, Detected number: 4, Expected: 0004
+8. Accuracy: 100.000000, Detected number: 9, Expected: 0009
+9. Accuracy: 100.000000, Detected number: 5, Expected: 0005
+10. Accuracy: 100.000000, Detected number: 9, Expected: 0009
+11. Accuracy: 100.000000, Detected number: 0, Expected: 0000
+12. Accuracy: 100.000000, Detected number: 6, Expected: 0006
+13. Accuracy: 100.000000, Detected number: 9, Expected: 0009
+14. Accuracy: 100.000000, Detected number: 0, Expected: 0000
+15. Accuracy: 100.000000, Detected number: 1, Expected: 0001
+16. Accuracy: 100.000000, Detected number: 5, Expected: 0005
+17. Accuracy: 100.000000, Detected number: 9, Expected: 0009
+18. Accuracy: 100.000000, Detected number: 7, Expected: 0007
+19. Accuracy: 100.000000, Detected number: 3, Expected: 0003
+20. Accuracy: 100.000000, Detected number: 4, Expected: 0004
+21. Accuracy: 100.000000, Detected number: 9, Expected: 0009
+22. Accuracy: 100.000000, Detected number: 6, Expected: 0006
+23. Accuracy: 100.000000, Detected number: 6, Expected: 0006
+24. Accuracy: 100.000000, Detected number: 5, Expected: 0005
+25. Accuracy: 100.000000, Detected number: 4, Expected: 0004
+26. Accuracy: 100.000000, Detected number: 0, Expected: 0000
+27. Accuracy: 100.000000, Detected number: 7, Expected: 0007
+28. Accuracy: 100.000000, Detected number: 4, Expected: 0004
+29. Accuracy: 100.000000, Detected number: 0, Expected: 0000
+30. Accuracy: 100.000000, Detected number: 1, Expected: 0001
+31. Accuracy: 100.000000, Detected number: 3, Expected: 0003
+32. Accuracy: 100.000000, Detected number: 1, Expected: 0001
+33. Accuracy: 100.000000, Detected number: 3, Expected: 0003
+34. Accuracy: 100.000000, Detected number: 4, Expected: 0004
+35. Accuracy: 100.000000, Detected number: 7, Expected: 0007
+36. Accuracy: 100.000000, Detected number: 2, Expected: 0002
+37. Accuracy: 100.000000, Detected number: 7, Expected: 0007
+38. Accuracy: 100.000000, Detected number: 1, Expected: 0001
+39. Accuracy: 100.000000, Detected number: 2, Expected: 0002
+40. Accuracy: 100.000000, Detected number: 1, Expected: 0001
+41. Accuracy: 100.000000, Detected number: 1, Expected: 0001
+42. Accuracy: 100.000000, Detected number: 7, Expected: 0007
+43. Accuracy: 100.000000, Detected number: 4, Expected: 0004
+44. Accuracy: 100.000000, Detected number: 2, Expected: 0002
+45. Accuracy: 100.000000, Detected number: 3, Expected: 0003
+46. Accuracy: 100.000000, Detected number: 5, Expected: 0005
+47. Accuracy: 100.000000, Detected number: 1, Expected: 0001
+48. Accuracy: 100.000000, Detected number: 2, Expected: 0002
+49. Accuracy: 100.000000, Detected number: 4, Expected: 0004
+50. Accuracy: 100.000000, Detected number: 4, Expected: 0004
+51. Accuracy: 100.000000, Detected number: 6, Expected: 0006
+52. Accuracy: 100.000000, Detected number: 3, Expected: 0003
+53. Accuracy: 100.000000, Detected number: 5, Expected: 0005
+54. Accuracy: 100.000000, Detected number: 5, Expected: 0005
+55. Accuracy: 100.000000, Detected number: 6, Expected: 0006
+56. Accuracy: 100.000000, Detected number: 0, Expected: 0000
+57. Accuracy: 100.000000, Detected number: 4, Expected: 0004
+58. Accuracy: 100.000000, Detected number: 1, Expected: 0001
+59. Accuracy: 100.000000, Detected number: 9, Expected: 0009
+60. Accuracy: 100.000000, Detected number: 5, Expected: 0005
+61. Accuracy: 100.000000, Detected number: 7, Expected: 0007
+62. Accuracy: 98.387097, Detected number: 2, Expected: 0008
+63. Accuracy: 98.412698, Detected number: 9, Expected: 0009
+64. Accuracy: 98.437500, Detected number: 3, Expected: 0003
+65. Accuracy: 98.461538, Detected number: 7, Expected: 0007
+66. Accuracy: 98.484848, Detected number: 4, Expected: 0004
+67. Accuracy: 98.507463, Detected number: 6, Expected: 0006
+68. Accuracy: 98.529412, Detected number: 4, Expected: 0004
+69. Accuracy: 98.550725, Detected number: 3, Expected: 0003
+70. Accuracy: 98.571429, Detected number: 0, Expected: 0000
+71. Accuracy: 98.591549, Detected number: 7, Expected: 0007
+72. Accuracy: 98.611111, Detected number: 0, Expected: 0000
+73. Accuracy: 98.630137, Detected number: 2, Expected: 0002
+74. Accuracy: 98.648649, Detected number: 9, Expected: 0009
+75. Accuracy: 98.666667, Detected number: 1, Expected: 0001
+76. Accuracy: 98.684211, Detected number: 7, Expected: 0007
+77. Accuracy: 98.701299, Detected number: 3, Expected: 0003
+78. Accuracy: 98.717949, Detected number: 2, Expected: 0002
+79. Accuracy: 98.734177, Detected number: 9, Expected: 0009
+80. Accuracy: 98.750000, Detected number: 7, Expected: 0007
+81. Accuracy: 98.765432, Detected number: 7, Expected: 0007
+82. Accuracy: 98.780488, Detected number: 6, Expected: 0006
+83. Accuracy: 98.795181, Detected number: 2, Expected: 0002
+84. Accuracy: 98.809524, Detected number: 7, Expected: 0007
+85. Accuracy: 98.823529, Detected number: 8, Expected: 0008
+86. Accuracy: 98.837209, Detected number: 4, Expected: 0004
+87. Accuracy: 98.850575, Detected number: 7, Expected: 0007
+88. Accuracy: 98.863636, Detected number: 3, Expected: 0003
+89. Accuracy: 98.876404, Detected number: 6, Expected: 0006
+90. Accuracy: 98.888889, Detected number: 1, Expected: 0001
+91. Accuracy: 98.901099, Detected number: 3, Expected: 0003
+92. Accuracy: 98.913043, Detected number: 6, Expected: 0006
+93. Accuracy: 98.924731, Detected number: 9, Expected: 0009
+94. Accuracy: 98.936170, Detected number: 3, Expected: 0003
+95. Accuracy: 98.947368, Detected number: 1, Expected: 0001
+96. Accuracy: 98.958333, Detected number: 4, Expected: 0004
+97. Accuracy: 98.969072, Detected number: 1, Expected: 0001
+98. Accuracy: 98.979592, Detected number: 7, Expected: 0007
+99. Accuracy: 98.989899, Detected number: 6, Expected: 0006
+100. Accuracy: 99.000000, Detected number: 9, Expected: 0009
+Accuracy: 99.000000
+run: Time (s): cpu = 00:00:08 ; elapsed = 00:00:35 . Memory (MB): peak = 992.742 ; gain = 3.648
+run all
+run: Time (s): cpu = 00:00:01 ; elapsed = 00:00:07 . Memory (MB): peak = 994.082 ; gain = 0.590
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'C:/Xilinx/Vivado/2017.4/data/xsim/ip/xsim_ip.ini' copied to run dir:'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'top_sim' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_0.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_1.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_10.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_11.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_12.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_13.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_14.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_15.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_16.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_17.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_18.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_19.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_2.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_20.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_21.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_22.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_23.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_24.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_25.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_26.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_27.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_28.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_29.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_3.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_4.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_5.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_6.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_7.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_8.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_9.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_0.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_1.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_10.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_11.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_12.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_13.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_14.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_15.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_16.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_17.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_18.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_19.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_2.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_20.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_21.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_22.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_23.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_24.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_25.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_26.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_27.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_28.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_29.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_3.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_4.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_5.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_6.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_7.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_8.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_9.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_3_0.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_3_1.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_3_2.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_3_3.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_3_4.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_3_5.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_3_6.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_3_7.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_3_8.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_3_9.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_4_0.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_4_1.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_4_2.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_4_3.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_4_4.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_4_5.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_4_6.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_4_7.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_4_8.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_4_9.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/sigContent.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/w_1_0.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/w_1_1.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/w_1_10.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/w_1_11.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/w_1_12.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/w_1_13.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/w_1_14.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/w_1_15.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/w_1_16.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/w_1_17.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/w_1_18.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/w_1_19.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/w_1_2.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/w_1_20.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/w_1_21.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/w_1_22.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/w_1_23.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/w_1_24.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/w_1_25.mif'
+INFO: [Common 17-14] Message 'SIM-utils 43' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj top_sim_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/HP/Documents/neuralNetwork-master/Tut-8/src/fpga/rtl/Layer_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Layer_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/HP/Documents/neuralNetwork-master/Tut-8/src/fpga/rtl/Layer_2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Layer_2
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/HP/Documents/neuralNetwork-master/Tut-8/src/fpga/rtl/Layer_3.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Layer_3
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/HP/Documents/neuralNetwork-master/Tut-8/src/fpga/rtl/Sig_ROM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Sig_ROM
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/HP/Documents/neuralNetwork-master/Tut-8/src/fpga/rtl/Weight_Memory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Weight_Memory
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/HP/Documents/neuralNetwork-master/Tut-8/src/fpga/rtl/axi_lite_wrapper.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module axi_lite_wrapper
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/HP/Documents/neuralNetwork-master/Tut-8/src/fpga/rtl/maxFinder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module maxFinder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/HP/Documents/neuralNetwork-master/Tut-8/src/fpga/rtl/neuron.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module neuron
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/HP/Documents/neuralNetwork-master/Tut-8/src/fpga/rtl/relu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ReLU
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/HP/Documents/neuralNetwork-master/Tut-8/src/fpga/rtl/zynet.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module zyNet
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/HP/Documents/neuralNetwork-master/Tut-8/src/fpga/tb/top_sim.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top_sim
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim'
+Vivado Simulator 2017.4
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2017.4/bin/unwrapped/win64.o/xelab.exe -wto 35746d0d926e4e72aba90759307671e1 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot top_sim_behav xil_defaultlib.top_sim xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 5 for port s_axi_awaddr [C:/Users/HP/Documents/neuralNetwork-master/Tut-8/src/fpga/tb/top_sim.v:73]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 3 for port s_axi_awprot [C:/Users/HP/Documents/neuralNetwork-master/Tut-8/src/fpga/tb/top_sim.v:74]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 5 for port s_axi_araddr [C:/Users/HP/Documents/neuralNetwork-master/Tut-8/src/fpga/tb/top_sim.v:84]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 3 for port s_axi_arprot [C:/Users/HP/Documents/neuralNetwork-master/Tut-8/src/fpga/tb/top_sim.v:85]
+WARNING: [VRFC 10-278] actual bit length 11 differs from formal bit length 10 for port radd [C:/Users/HP/Documents/neuralNetwork-master/Tut-8/src/fpga/rtl/neuron.v:172]
+WARNING: [VRFC 10-278] actual bit length 10 differs from formal bit length 1 for port i_valid [C:/Users/HP/Documents/neuralNetwork-master/Tut-8/src/fpga/rtl/zynet.v:318]
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "C:/Users/HP/Documents/neuralNetwork-master/Tut-8/src/fpga/rtl/Layer_1.v" Line 1. Module Layer_1(actType="sigmoid") doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/HP/Documents/neuralNetwork-master/Tut-8/src/fpga/rtl/Layer_2.v" Line 1. Module Layer_2(NN=20,numWeight=30,layerNum=2,actType="sigmoid") doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/HP/Documents/neuralNetwork-master/Tut-8/src/fpga/rtl/Layer_3.v" Line 1. Module Layer_3(NN=10,numWeight=20,layerNum=3,actType="sigmoid") doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.axi_lite_wrapper_default
+Compiling module xil_defaultlib.Weight_Memory(numWeight=784,neur...
+Compiling module xil_defaultlib.Sig_ROM
+Compiling module xil_defaultlib.neuron(layerNo=1,sigmoidSize=10,...
+Compiling module xil_defaultlib.Weight_Memory(numWeight=784,neur...
+Compiling module xil_defaultlib.neuron(layerNo=1,neuronNo=1,sigm...
+Compiling module xil_defaultlib.Weight_Memory(numWeight=784,neur...
+Compiling module xil_defaultlib.neuron(layerNo=1,neuronNo=2,sigm...
+Compiling module xil_defaultlib.Weight_Memory(numWeight=784,neur...
+Compiling module xil_defaultlib.neuron(layerNo=1,neuronNo=3,sigm...
+Compiling module xil_defaultlib.Weight_Memory(numWeight=784,neur...
+Compiling module xil_defaultlib.neuron(layerNo=1,neuronNo=4,sigm...
+Compiling module xil_defaultlib.Weight_Memory(numWeight=784,weig...
+Compiling module xil_defaultlib.neuron(layerNo=1,neuronNo=5,sigm...
+Compiling module xil_defaultlib.Weight_Memory(numWeight=784,neur...
+Compiling module xil_defaultlib.neuron(layerNo=1,neuronNo=6,sigm...
+Compiling module xil_defaultlib.Weight_Memory(numWeight=784,neur...
+Compiling module xil_defaultlib.neuron(layerNo=1,neuronNo=7,sigm...
+Compiling module xil_defaultlib.Weight_Memory(numWeight=784,neur...
+Compiling module xil_defaultlib.neuron(layerNo=1,neuronNo=8,sigm...
+Compiling module xil_defaultlib.Weight_Memory(numWeight=784,neur...
+Compiling module xil_defaultlib.neuron(layerNo=1,neuronNo=9,sigm...
+Compiling module xil_defaultlib.Weight_Memory(numWeight=784,neur...
+Compiling module xil_defaultlib.neuron(layerNo=1,neuronNo=10,sig...
+Compiling module xil_defaultlib.Weight_Memory(numWeight=784,neur...
+Compiling module xil_defaultlib.neuron(layerNo=1,neuronNo=11,sig...
+Compiling module xil_defaultlib.Weight_Memory(numWeight=784,neur...
+Compiling module xil_defaultlib.neuron(layerNo=1,neuronNo=12,sig...
+Compiling module xil_defaultlib.Weight_Memory(numWeight=784,neur...
+Compiling module xil_defaultlib.neuron(layerNo=1,neuronNo=13,sig...
+Compiling module xil_defaultlib.Weight_Memory(numWeight=784,neur...
+Compiling module xil_defaultlib.neuron(layerNo=1,neuronNo=14,sig...
+Compiling module xil_defaultlib.Weight_Memory(numWeight=784,neur...
+Compiling module xil_defaultlib.neuron(layerNo=1,neuronNo=15,sig...
+Compiling module xil_defaultlib.Weight_Memory(numWeight=784,neur...
+Compiling module xil_defaultlib.neuron(layerNo=1,neuronNo=16,sig...
+Compiling module xil_defaultlib.Weight_Memory(numWeight=784,neur...
+Compiling module xil_defaultlib.neuron(layerNo=1,neuronNo=17,sig...
+Compiling module xil_defaultlib.Weight_Memory(numWeight=784,neur...
+Compiling module xil_defaultlib.neuron(layerNo=1,neuronNo=18,sig...
+Compiling module xil_defaultlib.Weight_Memory(numWeight=784,neur...
+Compiling module xil_defaultlib.neuron(layerNo=1,neuronNo=19,sig...
+Compiling module xil_defaultlib.Weight_Memory(numWeight=784,neur...
+Compiling module xil_defaultlib.neuron(layerNo=1,neuronNo=20,sig...
+Compiling module xil_defaultlib.Weight_Memory(numWeight=784,neur...
+Compiling module xil_defaultlib.neuron(layerNo=1,neuronNo=21,sig...
+Compiling module xil_defaultlib.Weight_Memory(numWeight=784,neur...
+Compiling module xil_defaultlib.neuron(layerNo=1,neuronNo=22,sig...
+Compiling module xil_defaultlib.Weight_Memory(numWeight=784,neur...
+Compiling module xil_defaultlib.neuron(layerNo=1,neuronNo=23,sig...
+Compiling module xil_defaultlib.Weight_Memory(numWeight=784,neur...
+Compiling module xil_defaultlib.neuron(layerNo=1,neuronNo=24,sig...
+Compiling module xil_defaultlib.Weight_Memory(numWeight=784,neur...
+Compiling module xil_defaultlib.neuron(layerNo=1,neuronNo=25,sig...
+Compiling module xil_defaultlib.Weight_Memory(numWeight=784,neur...
+Compiling module xil_defaultlib.neuron(layerNo=1,neuronNo=26,sig...
+Compiling module xil_defaultlib.Weight_Memory(numWeight=784,neur...
+Compiling module xil_defaultlib.neuron(layerNo=1,neuronNo=27,sig...
+Compiling module xil_defaultlib.Weight_Memory(numWeight=784,neur...
+Compiling module xil_defaultlib.neuron(layerNo=1,neuronNo=28,sig...
+Compiling module xil_defaultlib.Weight_Memory(numWeight=784,neur...
+Compiling module xil_defaultlib.neuron(layerNo=1,neuronNo=29,sig...
+Compiling module xil_defaultlib.Layer_1(actType="sigmoid")
+Compiling module xil_defaultlib.Weight_Memory(numWeight=30,neuro...
+Compiling module xil_defaultlib.neuron(layerNo=2,numWeight=30,si...
+Compiling module xil_defaultlib.Weight_Memory(numWeight=30,neuro...
+Compiling module xil_defaultlib.neuron(layerNo=2,neuronNo=1,numW...
+Compiling module xil_defaultlib.Weight_Memory(numWeight=30,neuro...
+Compiling module xil_defaultlib.neuron(layerNo=2,neuronNo=2,numW...
+Compiling module xil_defaultlib.Weight_Memory(numWeight=30,neuro...
+Compiling module xil_defaultlib.neuron(layerNo=2,neuronNo=3,numW...
+Compiling module xil_defaultlib.Weight_Memory(numWeight=30,neuro...
+Compiling module xil_defaultlib.neuron(layerNo=2,neuronNo=4,numW...
+Compiling module xil_defaultlib.Weight_Memory(numWeight=30,layer...
+Compiling module xil_defaultlib.neuron(layerNo=2,neuronNo=5,numW...
+Compiling module xil_defaultlib.Weight_Memory(numWeight=30,neuro...
+Compiling module xil_defaultlib.neuron(layerNo=2,neuronNo=6,numW...
+Compiling module xil_defaultlib.Weight_Memory(numWeight=30,neuro...
+Compiling module xil_defaultlib.neuron(layerNo=2,neuronNo=7,numW...
+Compiling module xil_defaultlib.Weight_Memory(numWeight=30,neuro...
+Compiling module xil_defaultlib.neuron(layerNo=2,neuronNo=8,numW...
+Compiling module xil_defaultlib.Weight_Memory(numWeight=30,neuro...
+Compiling module xil_defaultlib.neuron(layerNo=2,neuronNo=9,numW...
+Compiling module xil_defaultlib.Weight_Memory(numWeight=30,neuro...
+Compiling module xil_defaultlib.neuron(layerNo=2,neuronNo=10,num...
+Compiling module xil_defaultlib.Weight_Memory(numWeight=30,neuro...
+Compiling module xil_defaultlib.neuron(layerNo=2,neuronNo=11,num...
+Compiling module xil_defaultlib.Weight_Memory(numWeight=30,neuro...
+Compiling module xil_defaultlib.neuron(layerNo=2,neuronNo=12,num...
+Compiling module xil_defaultlib.Weight_Memory(numWeight=30,neuro...
+Compiling module xil_defaultlib.neuron(layerNo=2,neuronNo=13,num...
+Compiling module xil_defaultlib.Weight_Memory(numWeight=30,neuro...
+Compiling module xil_defaultlib.neuron(layerNo=2,neuronNo=14,num...
+Compiling module xil_defaultlib.Weight_Memory(numWeight=30,neuro...
+Compiling module xil_defaultlib.neuron(layerNo=2,neuronNo=15,num...
+Compiling module xil_defaultlib.Weight_Memory(numWeight=30,neuro...
+Compiling module xil_defaultlib.neuron(layerNo=2,neuronNo=16,num...
+Compiling module xil_defaultlib.Weight_Memory(numWeight=30,neuro...
+Compiling module xil_defaultlib.neuron(layerNo=2,neuronNo=17,num...
+Compiling module xil_defaultlib.Weight_Memory(numWeight=30,neuro...
+Compiling module xil_defaultlib.neuron(layerNo=2,neuronNo=18,num...
+Compiling module xil_defaultlib.Weight_Memory(numWeight=30,neuro...
+Compiling module xil_defaultlib.neuron(layerNo=2,neuronNo=19,num...
+Compiling module xil_defaultlib.Layer_2(NN=20,numWeight=30,layer...
+Compiling module xil_defaultlib.Weight_Memory(numWeight=20,neuro...
+Compiling module xil_defaultlib.neuron(layerNo=3,numWeight=20,si...
+Compiling module xil_defaultlib.Weight_Memory(numWeight=20,neuro...
+Compiling module xil_defaultlib.neuron(layerNo=3,neuronNo=1,numW...
+Compiling module xil_defaultlib.Weight_Memory(numWeight=20,neuro...
+Compiling module xil_defaultlib.neuron(layerNo=3,neuronNo=2,numW...
+Compiling module xil_defaultlib.Weight_Memory(numWeight=20,neuro...
+Compiling module xil_defaultlib.neuron(layerNo=3,neuronNo=3,numW...
+Compiling module xil_defaultlib.Weight_Memory(numWeight=20,neuro...
+Compiling module xil_defaultlib.neuron(layerNo=3,neuronNo=4,numW...
+Compiling module xil_defaultlib.Weight_Memory(numWeight=20,layer...
+Compiling module xil_defaultlib.neuron(layerNo=3,neuronNo=5,numW...
+Compiling module xil_defaultlib.Weight_Memory(numWeight=20,neuro...
+Compiling module xil_defaultlib.neuron(layerNo=3,neuronNo=6,numW...
+Compiling module xil_defaultlib.Weight_Memory(numWeight=20,neuro...
+Compiling module xil_defaultlib.neuron(layerNo=3,neuronNo=7,numW...
+Compiling module xil_defaultlib.Weight_Memory(numWeight=20,neuro...
+Compiling module xil_defaultlib.neuron(layerNo=3,neuronNo=8,numW...
+Compiling module xil_defaultlib.Weight_Memory(numWeight=20,neuro...
+Compiling module xil_defaultlib.neuron(layerNo=3,neuronNo=9,numW...
+Compiling module xil_defaultlib.Layer_3(NN=10,numWeight=20,layer...
+Compiling module xil_defaultlib.maxFinder
+Compiling module xil_defaultlib.zyNet
+Compiling module xil_defaultlib.top_sim
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot top_sim_behav
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:11 . Memory (MB): peak = 994.219 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '11' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "top_sim_behav -key {Behavioral:sim_1:Functional:top_sim} -tclbatch {top_sim.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2017.4
+Time resolution is 1 ps
+source top_sim.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+Configuration completed                      0 ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'top_sim_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:04 ; elapsed = 00:00:20 . Memory (MB): peak = 994.219 ; gain = 0.000
+run all
+1. Accuracy: 100.000000, Detected number: 7, Expected: 0007
+2. Accuracy: 100.000000, Detected number: 2, Expected: 0002
+3. Accuracy: 100.000000, Detected number: 1, Expected: 0001
+4. Accuracy: 100.000000, Detected number: 0, Expected: 0000
+5. Accuracy: 100.000000, Detected number: 4, Expected: 0004
+6. Accuracy: 100.000000, Detected number: 1, Expected: 0001
+7. Accuracy: 100.000000, Detected number: 4, Expected: 0004
+8. Accuracy: 100.000000, Detected number: 9, Expected: 0009
+9. Accuracy: 100.000000, Detected number: 5, Expected: 0005
+10. Accuracy: 100.000000, Detected number: 9, Expected: 0009
+11. Accuracy: 100.000000, Detected number: 0, Expected: 0000
+12. Accuracy: 100.000000, Detected number: 6, Expected: 0006
+13. Accuracy: 100.000000, Detected number: 9, Expected: 0009
+14. Accuracy: 100.000000, Detected number: 0, Expected: 0000
+15. Accuracy: 100.000000, Detected number: 1, Expected: 0001
+16. Accuracy: 100.000000, Detected number: 5, Expected: 0005
+17. Accuracy: 100.000000, Detected number: 9, Expected: 0009
+18. Accuracy: 100.000000, Detected number: 7, Expected: 0007
+19. Accuracy: 100.000000, Detected number: 3, Expected: 0003
+20. Accuracy: 100.000000, Detected number: 4, Expected: 0004
+21. Accuracy: 100.000000, Detected number: 9, Expected: 0009
+22. Accuracy: 100.000000, Detected number: 6, Expected: 0006
+23. Accuracy: 100.000000, Detected number: 6, Expected: 0006
+24. Accuracy: 100.000000, Detected number: 5, Expected: 0005
+25. Accuracy: 100.000000, Detected number: 4, Expected: 0004
+26. Accuracy: 100.000000, Detected number: 0, Expected: 0000
+27. Accuracy: 100.000000, Detected number: 7, Expected: 0007
+28. Accuracy: 100.000000, Detected number: 4, Expected: 0004
+29. Accuracy: 100.000000, Detected number: 0, Expected: 0000
+30. Accuracy: 100.000000, Detected number: 1, Expected: 0001
+31. Accuracy: 100.000000, Detected number: 3, Expected: 0003
+32. Accuracy: 100.000000, Detected number: 1, Expected: 0001
+33. Accuracy: 100.000000, Detected number: 3, Expected: 0003
+34. Accuracy: 100.000000, Detected number: 4, Expected: 0004
+35. Accuracy: 100.000000, Detected number: 7, Expected: 0007
+36. Accuracy: 100.000000, Detected number: 2, Expected: 0002
+37. Accuracy: 100.000000, Detected number: 7, Expected: 0007
+38. Accuracy: 100.000000, Detected number: 1, Expected: 0001
+39. Accuracy: 100.000000, Detected number: 2, Expected: 0002
+40. Accuracy: 100.000000, Detected number: 1, Expected: 0001
+41. Accuracy: 100.000000, Detected number: 1, Expected: 0001
+42. Accuracy: 100.000000, Detected number: 7, Expected: 0007
+43. Accuracy: 100.000000, Detected number: 4, Expected: 0004
+44. Accuracy: 100.000000, Detected number: 2, Expected: 0002
+45. Accuracy: 100.000000, Detected number: 3, Expected: 0003
+46. Accuracy: 100.000000, Detected number: 5, Expected: 0005
+47. Accuracy: 100.000000, Detected number: 1, Expected: 0001
+48. Accuracy: 100.000000, Detected number: 2, Expected: 0002
+49. Accuracy: 100.000000, Detected number: 4, Expected: 0004
+50. Accuracy: 100.000000, Detected number: 4, Expected: 0004
+51. Accuracy: 100.000000, Detected number: 6, Expected: 0006
+52. Accuracy: 100.000000, Detected number: 3, Expected: 0003
+53. Accuracy: 100.000000, Detected number: 5, Expected: 0005
+54. Accuracy: 100.000000, Detected number: 5, Expected: 0005
+55. Accuracy: 100.000000, Detected number: 6, Expected: 0006
+56. Accuracy: 100.000000, Detected number: 0, Expected: 0000
+57. Accuracy: 100.000000, Detected number: 4, Expected: 0004
+58. Accuracy: 100.000000, Detected number: 1, Expected: 0001
+59. Accuracy: 100.000000, Detected number: 9, Expected: 0009
+60. Accuracy: 100.000000, Detected number: 5, Expected: 0005
+61. Accuracy: 100.000000, Detected number: 7, Expected: 0007
+62. Accuracy: 98.387097, Detected number: 2, Expected: 0008
+63. Accuracy: 98.412698, Detected number: 9, Expected: 0009
+64. Accuracy: 98.437500, Detected number: 3, Expected: 0003
+65. Accuracy: 98.461538, Detected number: 7, Expected: 0007
+66. Accuracy: 98.484848, Detected number: 4, Expected: 0004
+67. Accuracy: 98.507463, Detected number: 6, Expected: 0006
+68. Accuracy: 98.529412, Detected number: 4, Expected: 0004
+69. Accuracy: 98.550725, Detected number: 3, Expected: 0003
+70. Accuracy: 98.571429, Detected number: 0, Expected: 0000
+71. Accuracy: 98.591549, Detected number: 7, Expected: 0007
+72. Accuracy: 98.611111, Detected number: 0, Expected: 0000
+73. Accuracy: 98.630137, Detected number: 2, Expected: 0002
+74. Accuracy: 98.648649, Detected number: 9, Expected: 0009
+75. Accuracy: 98.666667, Detected number: 1, Expected: 0001
+76. Accuracy: 98.684211, Detected number: 7, Expected: 0007
+77. Accuracy: 98.701299, Detected number: 3, Expected: 0003
+78. Accuracy: 98.717949, Detected number: 2, Expected: 0002
+79. Accuracy: 98.734177, Detected number: 9, Expected: 0009
+80. Accuracy: 98.750000, Detected number: 7, Expected: 0007
+81. Accuracy: 98.765432, Detected number: 7, Expected: 0007
+82. Accuracy: 98.780488, Detected number: 6, Expected: 0006
+83. Accuracy: 98.795181, Detected number: 2, Expected: 0002
+84. Accuracy: 98.809524, Detected number: 7, Expected: 0007
+85. Accuracy: 98.823529, Detected number: 8, Expected: 0008
+86. Accuracy: 98.837209, Detected number: 4, Expected: 0004
+87. Accuracy: 98.850575, Detected number: 7, Expected: 0007
+88. Accuracy: 98.863636, Detected number: 3, Expected: 0003
+89. Accuracy: 98.876404, Detected number: 6, Expected: 0006
+90. Accuracy: 98.888889, Detected number: 1, Expected: 0001
+91. Accuracy: 98.901099, Detected number: 3, Expected: 0003
+92. Accuracy: 98.913043, Detected number: 6, Expected: 0006
+93. Accuracy: 98.924731, Detected number: 9, Expected: 0009
+94. Accuracy: 98.936170, Detected number: 3, Expected: 0003
+95. Accuracy: 98.947368, Detected number: 1, Expected: 0001
+96. Accuracy: 98.958333, Detected number: 4, Expected: 0004
+97. Accuracy: 98.969072, Detected number: 1, Expected: 0001
+98. Accuracy: 98.979592, Detected number: 7, Expected: 0007
+99. Accuracy: 98.989899, Detected number: 6, Expected: 0006
+100. Accuracy: 99.000000, Detected number: 9, Expected: 0009
+101. Accuracy: 99.009901, Detected number: 6, Expected: 0006
+102. Accuracy: 99.019608, Detected number: 0, Expected: 0000
+103. Accuracy: 99.029126, Detected number: 5, Expected: 0005
+104. Accuracy: 99.038462, Detected number: 4, Expected: 0004
+105. Accuracy: 99.047619, Detected number: 9, Expected: 0009
+106. Accuracy: 99.056604, Detected number: 9, Expected: 0009
+107. Accuracy: 99.065421, Detected number: 2, Expected: 0002
+108. Accuracy: 99.074074, Detected number: 1, Expected: 0001
+109. Accuracy: 99.082569, Detected number: 9, Expected: 0009
+110. Accuracy: 99.090909, Detected number: 4, Expected: 0004
+111. Accuracy: 99.099099, Detected number: 8, Expected: 0008
+112. Accuracy: 99.107143, Detected number: 7, Expected: 0007
+113. Accuracy: 99.115044, Detected number: 3, Expected: 0003
+114. Accuracy: 99.122807, Detected number: 9, Expected: 0009
+115. Accuracy: 99.130435, Detected number: 7, Expected: 0007
+116. Accuracy: 99.137931, Detected number: 4, Expected: 0004
+117. Accuracy: 99.145299, Detected number: 4, Expected: 0004
+118. Accuracy: 99.152542, Detected number: 4, Expected: 0004
+119. Accuracy: 99.159664, Detected number: 9, Expected: 0009
+120. Accuracy: 99.166667, Detected number: 2, Expected: 0002
+121. Accuracy: 99.173554, Detected number: 5, Expected: 0005
+122. Accuracy: 99.180328, Detected number: 4, Expected: 0004
+123. Accuracy: 99.186992, Detected number: 7, Expected: 0007
+124. Accuracy: 99.193548, Detected number: 6, Expected: 0006
+125. Accuracy: 99.200000, Detected number: 7, Expected: 0007
+126. Accuracy: 99.206349, Detected number: 9, Expected: 0009
+127. Accuracy: 99.212598, Detected number: 0, Expected: 0000
+128. Accuracy: 99.218750, Detected number: 5, Expected: 0005
+129. Accuracy: 99.224806, Detected number: 8, Expected: 0008
+130. Accuracy: 99.230769, Detected number: 5, Expected: 0005
+131. Accuracy: 99.236641, Detected number: 6, Expected: 0006
+132. Accuracy: 99.242424, Detected number: 6, Expected: 0006
+133. Accuracy: 99.248120, Detected number: 5, Expected: 0005
+134. Accuracy: 99.253731, Detected number: 7, Expected: 0007
+135. Accuracy: 99.259259, Detected number: 8, Expected: 0008
+136. Accuracy: 99.264706, Detected number: 1, Expected: 0001
+137. Accuracy: 99.270073, Detected number: 0, Expected: 0000
+138. Accuracy: 99.275362, Detected number: 1, Expected: 0001
+139. Accuracy: 99.280576, Detected number: 6, Expected: 0006
+140. Accuracy: 99.285714, Detected number: 4, Expected: 0004
+141. Accuracy: 99.290780, Detected number: 6, Expected: 0006
+142. Accuracy: 99.295775, Detected number: 7, Expected: 0007
+143. Accuracy: 99.300699, Detected number: 3, Expected: 0003
+144. Accuracy: 99.305556, Detected number: 1, Expected: 0001
+145. Accuracy: 99.310345, Detected number: 7, Expected: 0007
+146. Accuracy: 99.315068, Detected number: 1, Expected: 0001
+147. Accuracy: 99.319728, Detected number: 8, Expected: 0008
+148. Accuracy: 99.324324, Detected number: 2, Expected: 0002
+149. Accuracy: 99.328859, Detected number: 0, Expected: 0000
+150. Accuracy: 99.333333, Detected number: 2, Expected: 0002
+151. Accuracy: 99.337748, Detected number: 9, Expected: 0009
+152. Accuracy: 98.684211, Detected number: 8, Expected: 0009
+153. Accuracy: 98.692810, Detected number: 5, Expected: 0005
+154. Accuracy: 98.701299, Detected number: 5, Expected: 0005
+155. Accuracy: 98.709677, Detected number: 1, Expected: 0001
+156. Accuracy: 98.717949, Detected number: 5, Expected: 0005
+157. Accuracy: 98.726115, Detected number: 6, Expected: 0006
+158. Accuracy: 98.734177, Detected number: 0, Expected: 0000
+159. Accuracy: 98.742138, Detected number: 3, Expected: 0003
+160. Accuracy: 98.750000, Detected number: 4, Expected: 0004
+161. Accuracy: 98.757764, Detected number: 4, Expected: 0004
+162. Accuracy: 98.765432, Detected number: 6, Expected: 0006
+163. Accuracy: 98.773006, Detected number: 5, Expected: 0005
+164. Accuracy: 98.780488, Detected number: 4, Expected: 0004
+165. Accuracy: 98.787879, Detected number: 6, Expected: 0006
+166. Accuracy: 98.795181, Detected number: 5, Expected: 0005
+167. Accuracy: 98.802395, Detected number: 4, Expected: 0004
+168. Accuracy: 98.809524, Detected number: 5, Expected: 0005
+169. Accuracy: 98.816568, Detected number: 1, Expected: 0001
+170. Accuracy: 98.823529, Detected number: 4, Expected: 0004
+171. Accuracy: 98.830409, Detected number: 4, Expected: 0004
+172. Accuracy: 98.837209, Detected number: 7, Expected: 0007
+173. Accuracy: 98.843931, Detected number: 2, Expected: 0002
+174. Accuracy: 98.850575, Detected number: 3, Expected: 0003
+175. Accuracy: 98.857143, Detected number: 2, Expected: 0002
+176. Accuracy: 98.863636, Detected number: 7, Expected: 0007
+177. Accuracy: 98.870056, Detected number: 1, Expected: 0001
+178. Accuracy: 98.876404, Detected number: 8, Expected: 0008
+179. Accuracy: 98.882682, Detected number: 1, Expected: 0001
+180. Accuracy: 98.888889, Detected number: 8, Expected: 0008
+181. Accuracy: 98.895028, Detected number: 1, Expected: 0001
+182. Accuracy: 98.901099, Detected number: 8, Expected: 0008
+183. Accuracy: 98.907104, Detected number: 5, Expected: 0005
+184. Accuracy: 98.913043, Detected number: 0, Expected: 0000
+185. Accuracy: 98.918919, Detected number: 8, Expected: 0008
+186. Accuracy: 98.924731, Detected number: 9, Expected: 0009
+187. Accuracy: 98.930481, Detected number: 2, Expected: 0002
+188. Accuracy: 98.936170, Detected number: 5, Expected: 0005
+189. Accuracy: 98.941799, Detected number: 0, Expected: 0000
+190. Accuracy: 98.947368, Detected number: 1, Expected: 0001
+191. Accuracy: 98.952880, Detected number: 1, Expected: 0001
+192. Accuracy: 98.958333, Detected number: 1, Expected: 0001
+193. Accuracy: 98.963731, Detected number: 0, Expected: 0000
+194. Accuracy: 98.969072, Detected number: 9, Expected: 0009
+195. Accuracy: 98.974359, Detected number: 0, Expected: 0000
+196. Accuracy: 98.979592, Detected number: 3, Expected: 0003
+197. Accuracy: 98.984772, Detected number: 1, Expected: 0001
+198. Accuracy: 98.989899, Detected number: 6, Expected: 0006
+199. Accuracy: 98.994975, Detected number: 4, Expected: 0004
+200. Accuracy: 99.000000, Detected number: 2, Expected: 0002
+201. Accuracy: 99.004975, Detected number: 3, Expected: 0003
+202. Accuracy: 99.009901, Detected number: 6, Expected: 0006
+203. Accuracy: 99.014778, Detected number: 1, Expected: 0001
+204. Accuracy: 99.019608, Detected number: 1, Expected: 0001
+205. Accuracy: 99.024390, Detected number: 1, Expected: 0001
+206. Accuracy: 99.029126, Detected number: 3, Expected: 0003
+207. Accuracy: 99.033816, Detected number: 9, Expected: 0009
+208. Accuracy: 99.038462, Detected number: 5, Expected: 0005
+209. Accuracy: 99.043062, Detected number: 2, Expected: 0002
+210. Accuracy: 99.047619, Detected number: 9, Expected: 0009
+211. Accuracy: 99.052133, Detected number: 4, Expected: 0004
+212. Accuracy: 99.056604, Detected number: 5, Expected: 0005
+213. Accuracy: 99.061033, Detected number: 9, Expected: 0009
+214. Accuracy: 99.065421, Detected number: 3, Expected: 0003
+215. Accuracy: 99.069767, Detected number: 9, Expected: 0009
+216. Accuracy: 99.074074, Detected number: 0, Expected: 0000
+217. Accuracy: 99.078341, Detected number: 3, Expected: 0003
+218. Accuracy: 99.082569, Detected number: 6, Expected: 0006
+219. Accuracy: 99.086758, Detected number: 5, Expected: 0005
+220. Accuracy: 99.090909, Detected number: 5, Expected: 0005
+221. Accuracy: 99.095023, Detected number: 7, Expected: 0007
+222. Accuracy: 99.099099, Detected number: 2, Expected: 0002
+223. Accuracy: 99.103139, Detected number: 2, Expected: 0002
+224. Accuracy: 99.107143, Detected number: 7, Expected: 0007
+225. Accuracy: 99.111111, Detected number: 1, Expected: 0001
+226. Accuracy: 99.115044, Detected number: 2, Expected: 0002
+227. Accuracy: 99.118943, Detected number: 8, Expected: 0008
+228. Accuracy: 99.122807, Detected number: 4, Expected: 0004
+229. Accuracy: 99.126638, Detected number: 1, Expected: 0001
+230. Accuracy: 99.130435, Detected number: 7, Expected: 0007
+231. Accuracy: 99.134199, Detected number: 3, Expected: 0003
+232. Accuracy: 99.137931, Detected number: 3, Expected: 0003
+233. Accuracy: 99.141631, Detected number: 8, Expected: 0008
+234. Accuracy: 99.145299, Detected number: 8, Expected: 0008
+235. Accuracy: 99.148936, Detected number: 7, Expected: 0007
+236. Accuracy: 99.152542, Detected number: 9, Expected: 0009
+237. Accuracy: 99.156118, Detected number: 2, Expected: 0002
+238. Accuracy: 99.159664, Detected number: 2, Expected: 0002
+239. Accuracy: 99.163180, Detected number: 4, Expected: 0004
+240. Accuracy: 99.166667, Detected number: 1, Expected: 0001
+241. Accuracy: 99.170124, Detected number: 5, Expected: 0005
+242. Accuracy: 99.173554, Detected number: 9, Expected: 0009
+243. Accuracy: 99.176955, Detected number: 8, Expected: 0008
+244. Accuracy: 99.180328, Detected number: 7, Expected: 0007
+245. Accuracy: 99.183673, Detected number: 2, Expected: 0002
+246. Accuracy: 99.186992, Detected number: 3, Expected: 0003
+247. Accuracy: 99.190283, Detected number: 0, Expected: 0000
+248. Accuracy: 98.790323, Detected number: 6, Expected: 0004
+249. Accuracy: 98.795181, Detected number: 4, Expected: 0004
+250. Accuracy: 98.800000, Detected number: 2, Expected: 0002
+251. Accuracy: 98.804781, Detected number: 4, Expected: 0004
+252. Accuracy: 98.809524, Detected number: 1, Expected: 0001
+253. Accuracy: 98.814229, Detected number: 9, Expected: 0009
+254. Accuracy: 98.818898, Detected number: 5, Expected: 0005
+255. Accuracy: 98.823529, Detected number: 7, Expected: 0007
+256. Accuracy: 98.828125, Detected number: 7, Expected: 0007
+257. Accuracy: 98.832685, Detected number: 2, Expected: 0002
+258. Accuracy: 98.837209, Detected number: 8, Expected: 0008
+259. Accuracy: 98.841699, Detected number: 2, Expected: 0002
+260. Accuracy: 98.461538, Detected number: 0, Expected: 0006
+261. Accuracy: 98.467433, Detected number: 8, Expected: 0008
+262. Accuracy: 98.473282, Detected number: 5, Expected: 0005
+263. Accuracy: 98.479087, Detected number: 7, Expected: 0007
+264. Accuracy: 98.484848, Detected number: 7, Expected: 0007
+265. Accuracy: 98.490566, Detected number: 9, Expected: 0009
+266. Accuracy: 98.496241, Detected number: 1, Expected: 0001
+267. Accuracy: 98.501873, Detected number: 8, Expected: 0008
+268. Accuracy: 98.507463, Detected number: 1, Expected: 0001
+269. Accuracy: 98.513011, Detected number: 8, Expected: 0008
+270. Accuracy: 98.518519, Detected number: 0, Expected: 0000
+271. Accuracy: 98.523985, Detected number: 3, Expected: 0003
+272. Accuracy: 98.529412, Detected number: 0, Expected: 0000
+273. Accuracy: 98.534799, Detected number: 1, Expected: 0001
+274. Accuracy: 98.540146, Detected number: 9, Expected: 0009
+275. Accuracy: 98.545455, Detected number: 9, Expected: 0009
+276. Accuracy: 98.550725, Detected number: 4, Expected: 0004
+277. Accuracy: 98.555957, Detected number: 1, Expected: 0001
+278. Accuracy: 98.561151, Detected number: 8, Expected: 0008
+279. Accuracy: 98.566308, Detected number: 2, Expected: 0002
+280. Accuracy: 98.571429, Detected number: 1, Expected: 0001
+281. Accuracy: 98.576512, Detected number: 2, Expected: 0002
+282. Accuracy: 98.581560, Detected number: 9, Expected: 0009
+283. Accuracy: 98.586572, Detected number: 7, Expected: 0007
+284. Accuracy: 98.591549, Detected number: 5, Expected: 0005
+285. Accuracy: 98.596491, Detected number: 9, Expected: 0009
+286. Accuracy: 98.601399, Detected number: 2, Expected: 0002
+287. Accuracy: 98.606272, Detected number: 6, Expected: 0006
+288. Accuracy: 98.611111, Detected number: 4, Expected: 0004
+289. Accuracy: 98.615917, Detected number: 1, Expected: 0001
+290. Accuracy: 98.620690, Detected number: 5, Expected: 0005
+291. Accuracy: 98.625430, Detected number: 8, Expected: 0008
+292. Accuracy: 98.630137, Detected number: 2, Expected: 0002
+293. Accuracy: 98.634812, Detected number: 9, Expected: 0009
+294. Accuracy: 98.639456, Detected number: 2, Expected: 0002
+295. Accuracy: 98.644068, Detected number: 0, Expected: 0000
+296. Accuracy: 98.648649, Detected number: 4, Expected: 0004
+297. Accuracy: 98.653199, Detected number: 0, Expected: 0000
+298. Accuracy: 98.657718, Detected number: 0, Expected: 0000
+299. Accuracy: 98.662207, Detected number: 2, Expected: 0002
+300. Accuracy: 98.666667, Detected number: 8, Expected: 0008
+Accuracy: 98.666667
+run: Time (s): cpu = 00:00:06 ; elapsed = 00:01:39 . Memory (MB): peak = 999.660 ; gain = 5.156
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Thu May 25 19:48:07 2023...

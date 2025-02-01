@@ -1,0 +1,32 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Fri Apr 28 08:54:21 2023
+# Process ID: 16336
+# Current directory: C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent23812 C:\Users\HP\Documents\neuralNetwork-master\Tut-8\myProject1\myProject1.xpr
+# Log file: C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/vivado.log
+# Journal file: C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+source top_sim.tcl
+run all
+restart
+run all
+close_sim
+launch_simulation
+source top_sim.tcl
+run all
+close_sim
+launch_simulation
+source top_sim.tcl
+run all
+close_sim
+launch_simulation
+source top_sim.tcl
+run all
+close_sim

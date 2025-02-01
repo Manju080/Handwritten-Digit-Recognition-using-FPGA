@@ -1,0 +1,279 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Wed May 31 22:05:24 2023
+# Process ID: 14896
+# Current directory: C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent8900 C:\Users\HP\Documents\neuralNetwork-master\Tut-8\myProject1\myProject1.xpr
+# Log file: C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/vivado.log
+# Journal file: C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/HP/Documents/neuralNetwork-master/Tut-8/src'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2017.4/data/ip'.
+open_project: Time (s): cpu = 00:00:10 ; elapsed = 00:00:16 . Memory (MB): peak = 782.293 ; gain = 83.113
+update_compile_order -fileset sources_1
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'C:/Xilinx/Vivado/2017.4/data/xsim/ip/xsim_ip.ini' copied to run dir:'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'top_sim' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_0.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_1.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_10.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_11.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_12.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_13.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_14.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_15.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_16.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_17.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_18.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_19.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_2.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_20.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_21.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_22.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_23.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_24.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_25.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_26.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_27.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_28.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_29.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_3.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_4.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_5.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_6.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_7.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_8.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_9.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_0.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_1.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_10.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_11.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_12.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_13.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_14.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_15.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_16.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_17.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_18.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_19.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_2.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_20.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_21.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_22.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_23.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_24.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_25.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_26.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_27.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_28.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_29.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_3.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_4.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_5.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_6.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_7.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_8.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_9.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_3_0.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_3_1.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_3_2.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_3_3.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_3_4.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_3_5.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_3_6.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_3_7.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_3_8.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_3_9.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_4_0.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_4_1.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_4_2.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_4_3.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_4_4.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_4_5.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_4_6.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_4_7.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_4_8.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/b_4_9.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/sigContent.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/w_1_0.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/w_1_1.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/w_1_10.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/w_1_11.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/w_1_12.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/w_1_13.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/w_1_14.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/w_1_15.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/w_1_16.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/w_1_17.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/w_1_18.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/w_1_19.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/w_1_2.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/w_1_20.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/w_1_21.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/w_1_22.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/w_1_23.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/w_1_24.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim/w_1_25.mif'
+INFO: [Common 17-14] Message 'SIM-utils 43' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj top_sim_vlog.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim'
+Vivado Simulator 2017.4
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2017.4/bin/unwrapped/win64.o/xelab.exe -wto 35746d0d926e4e72aba90759307671e1 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot top_sim_behav xil_defaultlib.top_sim xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 5 for port s_axi_awaddr [C:/Users/HP/Documents/neuralNetwork-master/Tut-8/src/fpga/tb/top_sim.v:73]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 3 for port s_axi_awprot [C:/Users/HP/Documents/neuralNetwork-master/Tut-8/src/fpga/tb/top_sim.v:74]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 5 for port s_axi_araddr [C:/Users/HP/Documents/neuralNetwork-master/Tut-8/src/fpga/tb/top_sim.v:84]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 3 for port s_axi_arprot [C:/Users/HP/Documents/neuralNetwork-master/Tut-8/src/fpga/tb/top_sim.v:85]
+WARNING: [VRFC 10-278] actual bit length 11 differs from formal bit length 10 for port radd [C:/Users/HP/Documents/neuralNetwork-master/Tut-8/src/fpga/rtl/neuron.v:172]
+WARNING: [VRFC 10-278] actual bit length 10 differs from formal bit length 1 for port i_valid [C:/Users/HP/Documents/neuralNetwork-master/Tut-8/src/fpga/rtl/zynet.v:318]
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/myProject1/myProject1.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "top_sim_behav -key {Behavioral:sim_1:Functional:top_sim} -tclbatch {top_sim.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2017.4
+Time resolution is 1 ps
+source top_sim.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+Configuration completed                      0 ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'top_sim_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:06 ; elapsed = 00:00:13 . Memory (MB): peak = 850.266 ; gain = 67.973
+run all
+1. Accuracy: 100.000000, Detected number: 7, Expected: 0007
+2. Accuracy: 100.000000, Detected number: 2, Expected: 0002
+3. Accuracy: 100.000000, Detected number: 1, Expected: 0001
+4. Accuracy: 100.000000, Detected number: 0, Expected: 0000
+5. Accuracy: 100.000000, Detected number: 4, Expected: 0004
+6. Accuracy: 100.000000, Detected number: 1, Expected: 0001
+7. Accuracy: 100.000000, Detected number: 4, Expected: 0004
+8. Accuracy: 100.000000, Detected number: 9, Expected: 0009
+9. Accuracy: 100.000000, Detected number: 5, Expected: 0005
+10. Accuracy: 100.000000, Detected number: 9, Expected: 0009
+11. Accuracy: 100.000000, Detected number: 0, Expected: 0000
+12. Accuracy: 100.000000, Detected number: 6, Expected: 0006
+13. Accuracy: 100.000000, Detected number: 9, Expected: 0009
+14. Accuracy: 100.000000, Detected number: 0, Expected: 0000
+15. Accuracy: 100.000000, Detected number: 1, Expected: 0001
+16. Accuracy: 100.000000, Detected number: 5, Expected: 0005
+17. Accuracy: 100.000000, Detected number: 9, Expected: 0009
+18. Accuracy: 100.000000, Detected number: 7, Expected: 0007
+19. Accuracy: 100.000000, Detected number: 3, Expected: 0003
+20. Accuracy: 100.000000, Detected number: 4, Expected: 0004
+21. Accuracy: 100.000000, Detected number: 9, Expected: 0009
+22. Accuracy: 100.000000, Detected number: 6, Expected: 0006
+23. Accuracy: 100.000000, Detected number: 6, Expected: 0006
+24. Accuracy: 100.000000, Detected number: 5, Expected: 0005
+25. Accuracy: 100.000000, Detected number: 4, Expected: 0004
+26. Accuracy: 100.000000, Detected number: 0, Expected: 0000
+27. Accuracy: 100.000000, Detected number: 7, Expected: 0007
+28. Accuracy: 100.000000, Detected number: 4, Expected: 0004
+29. Accuracy: 100.000000, Detected number: 0, Expected: 0000
+30. Accuracy: 100.000000, Detected number: 1, Expected: 0001
+31. Accuracy: 100.000000, Detected number: 3, Expected: 0003
+32. Accuracy: 100.000000, Detected number: 1, Expected: 0001
+33. Accuracy: 100.000000, Detected number: 3, Expected: 0003
+34. Accuracy: 100.000000, Detected number: 4, Expected: 0004
+35. Accuracy: 100.000000, Detected number: 7, Expected: 0007
+36. Accuracy: 100.000000, Detected number: 2, Expected: 0002
+37. Accuracy: 100.000000, Detected number: 7, Expected: 0007
+38. Accuracy: 100.000000, Detected number: 1, Expected: 0001
+39. Accuracy: 100.000000, Detected number: 2, Expected: 0002
+40. Accuracy: 100.000000, Detected number: 1, Expected: 0001
+41. Accuracy: 100.000000, Detected number: 1, Expected: 0001
+42. Accuracy: 100.000000, Detected number: 7, Expected: 0007
+43. Accuracy: 100.000000, Detected number: 4, Expected: 0004
+44. Accuracy: 100.000000, Detected number: 2, Expected: 0002
+45. Accuracy: 100.000000, Detected number: 3, Expected: 0003
+46. Accuracy: 100.000000, Detected number: 5, Expected: 0005
+47. Accuracy: 100.000000, Detected number: 1, Expected: 0001
+48. Accuracy: 100.000000, Detected number: 2, Expected: 0002
+49. Accuracy: 100.000000, Detected number: 4, Expected: 0004
+50. Accuracy: 100.000000, Detected number: 4, Expected: 0004
+51. Accuracy: 100.000000, Detected number: 6, Expected: 0006
+52. Accuracy: 100.000000, Detected number: 3, Expected: 0003
+53. Accuracy: 100.000000, Detected number: 5, Expected: 0005
+54. Accuracy: 100.000000, Detected number: 5, Expected: 0005
+55. Accuracy: 100.000000, Detected number: 6, Expected: 0006
+56. Accuracy: 100.000000, Detected number: 0, Expected: 0000
+57. Accuracy: 100.000000, Detected number: 4, Expected: 0004
+58. Accuracy: 100.000000, Detected number: 1, Expected: 0001
+59. Accuracy: 100.000000, Detected number: 9, Expected: 0009
+60. Accuracy: 100.000000, Detected number: 5, Expected: 0005
+61. Accuracy: 100.000000, Detected number: 7, Expected: 0007
+62. Accuracy: 98.387097, Detected number: 2, Expected: 0008
+63. Accuracy: 98.412698, Detected number: 9, Expected: 0009
+64. Accuracy: 98.437500, Detected number: 3, Expected: 0003
+65. Accuracy: 98.461538, Detected number: 7, Expected: 0007
+66. Accuracy: 98.484848, Detected number: 4, Expected: 0004
+67. Accuracy: 98.507463, Detected number: 6, Expected: 0006
+68. Accuracy: 98.529412, Detected number: 4, Expected: 0004
+69. Accuracy: 98.550725, Detected number: 3, Expected: 0003
+70. Accuracy: 98.571429, Detected number: 0, Expected: 0000
+71. Accuracy: 98.591549, Detected number: 7, Expected: 0007
+72. Accuracy: 98.611111, Detected number: 0, Expected: 0000
+73. Accuracy: 98.630137, Detected number: 2, Expected: 0002
+74. Accuracy: 98.648649, Detected number: 9, Expected: 0009
+75. Accuracy: 98.666667, Detected number: 1, Expected: 0001
+76. Accuracy: 98.684211, Detected number: 7, Expected: 0007
+77. Accuracy: 98.701299, Detected number: 3, Expected: 0003
+78. Accuracy: 98.717949, Detected number: 2, Expected: 0002
+79. Accuracy: 98.734177, Detected number: 9, Expected: 0009
+80. Accuracy: 98.750000, Detected number: 7, Expected: 0007
+81. Accuracy: 98.765432, Detected number: 7, Expected: 0007
+82. Accuracy: 98.780488, Detected number: 6, Expected: 0006
+83. Accuracy: 98.795181, Detected number: 2, Expected: 0002
+84. Accuracy: 98.809524, Detected number: 7, Expected: 0007
+85. Accuracy: 98.823529, Detected number: 8, Expected: 0008
+86. Accuracy: 98.837209, Detected number: 4, Expected: 0004
+87. Accuracy: 98.850575, Detected number: 7, Expected: 0007
+88. Accuracy: 98.863636, Detected number: 3, Expected: 0003
+89. Accuracy: 98.876404, Detected number: 6, Expected: 0006
+90. Accuracy: 98.888889, Detected number: 1, Expected: 0001
+91. Accuracy: 98.901099, Detected number: 3, Expected: 0003
+92. Accuracy: 98.913043, Detected number: 6, Expected: 0006
+93. Accuracy: 98.924731, Detected number: 9, Expected: 0009
+94. Accuracy: 98.936170, Detected number: 3, Expected: 0003
+95. Accuracy: 98.947368, Detected number: 1, Expected: 0001
+96. Accuracy: 98.958333, Detected number: 4, Expected: 0004
+97. Accuracy: 98.969072, Detected number: 1, Expected: 0001
+98. Accuracy: 98.979592, Detected number: 7, Expected: 0007
+99. Accuracy: 98.989899, Detected number: 6, Expected: 0006
+100. Accuracy: 99.000000, Detected number: 9, Expected: 0009
+Accuracy: 99.000000
+run: Time (s): cpu = 00:00:15 ; elapsed = 00:00:26 . Memory (MB): peak = 880.898 ; gain = 30.047
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_sim: Time (s): cpu = 00:00:04 ; elapsed = 00:00:07 . Memory (MB): peak = 906.938 ; gain = 18.344
+exit
+INFO: [Common 17-206] Exiting Vivado at Wed May 31 22:19:03 2023...

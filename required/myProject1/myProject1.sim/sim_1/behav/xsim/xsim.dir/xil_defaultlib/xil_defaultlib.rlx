@@ -1,0 +1,18 @@
+0.7
+2020.2
+Oct 14 2022
+05:20:55
+C:/Users/HP/Documents/neuralNetwork-master/Tut-5/src/fpga/rtl/Layer_1.v,1679202396,verilog,,C:/Users/HP/Documents/neuralNetwork-master/Tut-5/src/fpga/rtl/Layer_2.v,,Layer_1,,,,,,,,
+C:/Users/HP/Documents/neuralNetwork-master/Tut-5/src/fpga/rtl/Layer_2.v,1679202396,verilog,,C:/Users/HP/Documents/neuralNetwork-master/Tut-5/src/fpga/rtl/Layer_3.v,,Layer_2,,,,,,,,
+C:/Users/HP/Documents/neuralNetwork-master/Tut-5/src/fpga/rtl/Layer_3.v,1679161496,verilog,,C:/Users/HP/Documents/neuralNetwork-master/Tut-5/src/fpga/rtl/Layer_4.v,,Layer_3,,,,,,,,
+C:/Users/HP/Documents/neuralNetwork-master/Tut-5/src/fpga/rtl/Layer_4.v,1679161496,verilog,,C:/Users/HP/Documents/neuralNetwork-master/Tut-5/src/fpga/rtl/Sig_ROM.v,,Layer_4,,,,,,,,
+C:/Users/HP/Documents/neuralNetwork-master/Tut-5/src/fpga/rtl/Sig_ROM.v,1679161496,verilog,,C:/Users/HP/Documents/neuralNetwork-master/Tut-5/src/fpga/rtl/Weight_Memory.v,,Sig_ROM,,,,,,,,
+C:/Users/HP/Documents/neuralNetwork-master/Tut-5/src/fpga/rtl/Weight_Memory.v,1679161496,verilog,,C:/Users/HP/Documents/neuralNetwork-master/Tut-5/src/fpga/rtl/axi_lite_wrapper.v,C:/Users/HP/Documents/neuralNetwork-master/Tut-5/src/fpga/rtl/include.v,Weight_Memory,,,,,,,,
+C:/Users/HP/Documents/neuralNetwork-master/Tut-5/src/fpga/rtl/axi_lite_wrapper.v,1679161497,verilog,,C:/Users/HP/Documents/neuralNetwork-master/Tut-5/src/fpga/rtl/maxFinder.v,,axi_lite_wrapper,,,,,,,,
+C:/Users/HP/Documents/neuralNetwork-master/Tut-5/src/fpga/rtl/include.v,1679161499,verilog,,,,,,,,,,,,
+C:/Users/HP/Documents/neuralNetwork-master/Tut-5/src/fpga/rtl/maxFinder.v,1679161499,verilog,,C:/Users/HP/Documents/neuralNetwork-master/Tut-5/src/fpga/rtl/neuron.v,,maxFinder,,,,,,,,
+C:/Users/HP/Documents/neuralNetwork-master/Tut-5/src/fpga/rtl/neuron.v,1679161499,verilog,,C:/Users/HP/Documents/neuralNetwork-master/Tut-5/src/fpga/rtl/relu.v,C:/Users/HP/Documents/neuralNetwork-master/Tut-5/src/fpga/rtl/include.v,neuron,,,,,,,,
+C:/Users/HP/Documents/neuralNetwork-master/Tut-5/src/fpga/rtl/relu.v,1679161499,verilog,,C:/Users/HP/Documents/neuralNetwork-master/Tut-5/src/fpga/rtl/zynet.v,,ReLU,,,,,,,,
+C:/Users/HP/Documents/neuralNetwork-master/Tut-5/src/fpga/rtl/zynet.v,1679161502,verilog,,C:/Users/HP/Documents/neuralNetwork-master/Tut-5/src/fpga/tb/top_sim.v,C:/Users/HP/Documents/neuralNetwork-master/Tut-5/src/fpga/rtl/include.v,zyNet,,,,,,,,
+C:/Users/HP/Documents/neuralNetwork-master/Tut-5/src/fpga/tb/top_sim.v,1679161502,verilog,,,C:/Users/HP/Documents/neuralNetwork-master/Tut-5/src/fpga/rtl/include.v,top_sim,,,,,,,,
+C:/Users/HP/Documents/neuralNetwork-master/required/myProject1/myProject1.sim/sim_1/behav/xsim/glbl.v,1665704903,verilog,,,,glbl,,,,,,,,

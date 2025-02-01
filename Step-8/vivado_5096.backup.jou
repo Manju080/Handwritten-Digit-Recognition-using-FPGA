@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Fri Apr 28 08:53:28 2023
+# Process ID: 5096
+# Current directory: C:/Users/HP/Documents/neuralNetwork-master/Tut-8
+# Command line: vivado.exe -mode tcl -source zynet.tcl -tclargs --project_name myProject1
+# Log file: C:/Users/HP/Documents/neuralNetwork-master/Tut-8/vivado.log
+# Journal file: C:/Users/HP/Documents/neuralNetwork-master/Tut-8\vivado.jou
+#-----------------------------------------------------------
+source zynet.tcl

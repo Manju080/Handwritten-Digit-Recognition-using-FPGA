@@ -1,0 +1,49 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Fri Apr 28 08:53:40 2023
+# Process ID: 18480
+# Current directory: C:/Users/HP/Documents/neuralNetwork-master/Tut-8
+# Command line: vivado.exe -mode tcl -source C:\Users\HP\AppData\Local\Programs\Python\Python310\lib\site-packages\zynet\db/makeIP.tcl -tclargs myProject1/myProject1.xpr
+# Log file: C:/Users/HP/Documents/neuralNetwork-master/Tut-8/vivado.log
+# Journal file: C:/Users/HP/Documents/neuralNetwork-master/Tut-8\vivado.jou
+#-----------------------------------------------------------
+source {C:\Users\HP\AppData\Local\Programs\Python\Python310\lib\site-packages\zynet\db/makeIP.tcl}
+# open_project [lindex $argv 0]
+Scanning sources...
+Finished scanning sources
+# ipx::package_project -root_dir ./src/fpga -vendor VIP -library user -taxonomy /UserIP
+WARNING: [IP_Flow 19-3833] Unreferenced file from the top module is not packaged: 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/src/fpga/rtl/Layer_4.v'.
+WARNING: [IP_Flow 19-3833] Unreferenced file from the top module is not packaged: 'C:/Users/HP/Documents/neuralNetwork-master/Tut-8/src/fpga/rtl/Layer_5.v'.
+INFO: [IP_Flow 19-1842] HDL Parser: Found include file "rtl/include.v" from the top-level HDL file.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2017.4/data/ip'.
+INFO: [IP_Flow 19-5107] Inferred bus interface 's_axi' of definition 'xilinx.com:interface:aximm:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-4753] Inferred signal 'reset' from port 's_axi_aresetn' as interface 's_axi_aresetn'.
+INFO: [IP_Flow 19-4728] Bus Interface 's_axi_aresetn': Added interface parameter 'POLARITY' with value 'ACTIVE_LOW'.
+INFO: [IP_Flow 19-4753] Inferred signal 'clock' from port 's_axi_aclk' as interface 's_axi_aclk'.
+INFO: [IP_Flow 19-4728] Bus Interface 's_axi_aclk': Added interface parameter 'ASSOCIATED_BUSIF' with value 's_axi'.
+INFO: [IP_Flow 19-4753] Inferred signal 'interrupt' from port 'intr' as interface 'intr'.
+INFO: [IP_Flow 19-4728] Bus Interface 'intr': Added interface parameter 'SENSITIVITY' with value 'LEVEL_HIGH'.
+INFO: [IP_Flow 19-4728] Bus Interface 's_axi_aclk': Added interface parameter 'ASSOCIATED_RESET' with value 's_axi_aresetn'.
+ipx::package_project: Time (s): cpu = 00:00:00 ; elapsed = 00:00:05 . Memory (MB): peak = 244.402 ; gain = 13.152
+# ipx::add_bus_interface axis_data [ipx::current_core]
+# set_property abstraction_type_vlnv xilinx.com:interface:axis_rtl:1.0 [ipx::get_bus_interfaces axis_data -of_objects [ipx::current_core]]
+# set_property bus_type_vlnv xilinx.com:interface:axis:1.0 [ipx::get_bus_interfaces axis_data -of_objects [ipx::current_core]]
+# ipx::add_port_map TVALID [ipx::get_bus_interfaces axis_data -of_objects [ipx::current_core]]
+# set_property physical_name axis_in_data_valid [ipx::get_port_maps TVALID -of_objects [ipx::get_bus_interfaces axis_data -of_objects [ipx::current_core]]]
+# ipx::add_port_map TREADY [ipx::get_bus_interfaces axis_data -of_objects [ipx::current_core]]
+# set_property physical_name axis_in_data_ready [ipx::get_port_maps TREADY -of_objects [ipx::get_bus_interfaces axis_data -of_objects [ipx::current_core]]]
+# ipx::add_port_map TDATA [ipx::get_bus_interfaces axis_data -of_objects [ipx::current_core]]
+# set_property physical_name axis_in_data [ipx::get_port_maps TDATA -of_objects [ipx::get_bus_interfaces axis_data -of_objects [ipx::current_core]]]
+# set_property core_revision 1 [ipx::current_core]
+# set_property value s_axi:axis_data [ipx::get_bus_parameters ASSOCIATED_BUSIF -of_objects [ipx::get_bus_interfaces s_axi_aclk -of_objects [ipx::current_core]]]
+# ipx::create_xgui_files [ipx::current_core]
+# ipx::update_checksums [ipx::current_core]
+# ipx::save_core [ipx::current_core]
+# update_ip_catalog
+INFO: [IP_Flow 19-1839] IP Catalog is up to date.
+# exit
+INFO: [Common 17-206] Exiting Vivado at Fri Apr 28 08:53:51 2023...
